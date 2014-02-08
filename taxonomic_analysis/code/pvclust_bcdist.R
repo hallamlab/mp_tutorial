@@ -643,7 +643,7 @@ dist.pvclust <- function(x, method="euclidean", use.cor="pairwise.complete.obs")
     return(res)
   } 
   else if(!is.na(pmatch(method,"bray–curtis"))) {
-	try("ecodist",install.packages("ecodist"))
+	try(library("ecodist"), install.packages("ecodist"))
 	bcdist(t(x)) # Niels start
   }
   else
