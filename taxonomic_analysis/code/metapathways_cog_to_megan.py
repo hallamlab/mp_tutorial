@@ -1,6 +1,6 @@
 #!/usr/bin/python
 """
-metapathways_last_to_megan.py
+metapathways_cog_to_megan.py
 
 Created by Niels Hanson on 2013-08-16.
 Copyright (c) 2013 Steven J. Hallam Laboratory. All rights reserved.
@@ -25,16 +25,19 @@ except:
      sys.exit(3)
 
 
-# usage: python metapathways_last_to_megan.py -i input_filename -o output_filename
-what_i_do = "Parses COG blastout/blastout.parsed files and formats them as csv files for import into MEGAN"
+# Example: python metapathways_cog_to_megan.py -i output/HOT_Sanger/*/blast_results/*cog*out.txt -o .
+what_i_do = """Parses read-taxonomy hits from the parsed <sample>.cog.(blast/last)out.parsed.txt files, e.g., 
+my_sample.cog.(blast/last)out.txt, files from the <sample>/blast_results/ directory and formats 
+them as csv files for import into MEGAN.
+"""
 parser = argparse.ArgumentParser(description=what_i_do)
 # add arguments to the parser
 parser.add_argument('-i', dest='input_files', type=str, nargs='+',
-                required=True, help='blast.parsed.txt files from metapathways to be parsed', default=None)                
+                required=True, help='glob of <sample>.cog.(blast/last)out.parsed.txt files from MetaPathways <sample>/blast_results/ output folder', default=None)                
 parser.add_argument('-o', dest='output_dir', type=str, nargs='?',
-                required=True, help='directory where results will be output', default=os.getcwd())
+                required=False, help='directory where <sample>.cog.megan.csv.txt files will be put', default=os.getcwd())
 parser.add_argument('--dsv', dest='dsv', action='store_true',
-                required=False, help='flag to output a dsv file', default=False)
+                required=False, help='flag to output a .dsv instead of a .csv file', default=False)
 
 
 def main(argv):
@@ -54,7 +57,7 @@ def main(argv):
         if args['dsv']:
             end = ".dsv"
         sample_db = re.sub("\.(blast|last).*\.txt", "", os.path.basename(f), re.I)
-        output_file = [output_dir, os.sep, sample_db, ".megan", end]
+        output_file = [output_dir, os.sep, sample_db, ".megan", end, ".txt"]
         output_handle = open("".join(output_file), "w")
 
         for l in lines:

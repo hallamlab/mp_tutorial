@@ -25,16 +25,19 @@ except:
      sys.exit(3)
 
 
-# usage: python metapathways_last_to_megan.py -i input_filename -o output_filename
-what_i_do = "Parses blastout/blastout.parsed files and formats them as csv files for import into MEGAN"
+# Example: python metapathways_last_to_megan.py -i output/HOT_Sanger/*/blast_results/*cog*out.txt -o .
+what_i_do = """Retrives read-taxonomy hits from the parsed (blast/last) result files <sample>.<database>.(blast/last)out.parsed.txt files, 
+e.g. my_sample.refseq.lastout.parsed.txt, files from the <sample>/blast_results/ directory and formats them as .csv 
+files for import into MEGAN. Requires that the database keep the taxonomy in within square braces, e.g. [E. coli K12].
+"""
 parser = argparse.ArgumentParser(description=what_i_do)
 # add arguments to the parser
 parser.add_argument('-i', dest='input_files', type=str, nargs='+',
-                required=True, help='the input file to be parsed', default=None)                
+                required=True, help='glob of <sample>.<database>.(blast/last)out.txt files from MetaPathways <sample>/blast_results/ output folder', default=None)                
 parser.add_argument('-o', dest='output_dir', type=str, nargs='?',
-                required=True, help='directory where results will be output', default=os.getcwd())
+                required=False, help='directory where <sample>.<database>.megan.csv.txt files will be put', default=os.getcwd())
 parser.add_argument('--dsv', dest='dsv', action='store_true',
-                required=False, help='flag to output a dsv file', default=False)
+                required=False, help='flag to output a .dsv instread of a .csv file', default=False)
 
 def main(argv):
     args = vars(parser.parse_args())
@@ -53,7 +56,7 @@ def main(argv):
         if args['dsv']:
             end = ".dsv"
         sample_db = re.sub("\.(blast|last).*\.txt", "", os.path.basename(f), re.I)
-        output_file = [output_dir, os.sep, sample_db, ".megan", end]
+        output_file = [output_dir, os.sep, sample_db, ".megan", end, ".txt"]
         output_handle = open("".join(output_file), "w")
 
         for l in lines:
