@@ -53,19 +53,19 @@ def main(argv):
         file_handle.close()
         
         COG_pattern = re.compile("# Organism: (.+) \(.+\)")
-        end = ".csv"
+        end = ".csv.txt"
         if args['dsv']:
             end = ".dsv"
         sample_db = re.sub("\.(blast|last).*\.txt", "", os.path.basename(f), re.I)
-        output_file = [output_dir, os.sep, sample_db, ".megan", end, ".txt"]
+        output_file = [output_dir, os.sep, sample_db, ".megan", end,]
         output_handle = open("".join(output_file), "w")
 
         for l in lines:
         	fields = l.split("\t")
-        	hits = COG_pattern.search(fields[8])
+        	hits = COG_pattern.search(fields[9])
         	if hits:
         	   read = fields[0]
-        	   last_score = fields[2]
+        	   last_score = fields[3]
         	   taxa = hits.group(1)
         	   out_line = read + ", " + taxa + ", " + last_score + "\n"
         	   output_handle.write(out_line)

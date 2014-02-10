@@ -51,12 +51,12 @@ def main(argv):
         lines = file_handle.readlines()
         file_handle.close()
         
-        end = ".csv"
+        end = ".csv.txt"
         if args['dsv']:
             end = ".dsv"
         # clean up filename
         sample_db = re.sub(".rRNA.stats.txt", "", os.path.basename(f), re.I)
-        output_file = [output_dir, os.sep, sample_db, ".megan", end, ".txt"]
+        output_file = [output_dir, os.sep, sample_db, ".megan", end]
         output_handle = open("".join(output_file), "w")
 
         for l in lines:
