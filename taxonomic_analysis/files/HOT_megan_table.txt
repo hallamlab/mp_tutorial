@@ -1,0 +1,28 @@
+taxa	 1_upper_euphotic	 6_upper_euphotic	 2_chlorophyllmax	 3_below_euphotic	 5_uppermesopelagic	 7_omz	 4_deepabyss
+Actinobacteria <phylum>	 173	 271	 194	 181	 349	 299	 252
+Aquificae <phylum>	 0	 0	 0	 0	 0	 7	 5
+Armatimonadetes	 0	 0	 0	 7	 6	 0	 6
+Bacteroidetes	 189	 129	 80	 103	 126	 237	 211
+Chlorobi	 6	 0	 7	 9	 6	 18	 16
+Ignavibacteriae	 0	 0	 0	 0	 9	 12	 10
+Lentisphaerae	 6	 0	 0	 0	 0	 13	 9
+Verrucomicrobia	 139	 245	 112	 159	 240	 252	 279
+Chloroflexi <phylum>	 96	 11	 71	 331	 282	 284	 771
+Cyanobacteria	 502	 272	 229	 141	 51	 169	 115
+Deferribacteres <phylum>	 0	 5	 0	 0	 0	 0	 0
+Deinococcus-Thermus	 5	 10	 6	 14	 15	 17	 33
+Acidobacteria	 22	 15	 16	 33	 50	 90	 74
+Marinimicrobia	 44	 27	 71	 65	 150	 261	 175
+Firmicutes	 87	 95	 76	 150	 173	 226	 247
+Gemmatimonadetes	 0	 0	 5	 9	 17	 14	 19
+Nitrospinae	 13	 0	 0	 41	 182	 482	 153
+Nitrospirae	 0	 0	 0	 0	 5	 7	 7
+Planctomycetes	 64	 73	 82	 166	 184	 224	 252
+Proteobacteria	 2597	 3304	 1495	 1589	 2926	 3397	 3226
+Spirochaetes	 11	 16	 8	 14	 20	 38	 20
+Synergistetes	 0	 13	 6	 0	 0	 0	 7
+Thermodesulfobacteria <phylum>	 0	 0	 0	 0	 0	 5	 10
+Thermotogae <phylum>	 0	 0	 0	 0	 6	 5	 7
+Crenarchaeota	 0	 5	 6	 7	 6	 0	 6
+Euryarchaeota	 89	 97	 73	 77	 57	 68	 78
+Thaumarchaeota	 29	 0	 29	 130	 334	 363	 208
