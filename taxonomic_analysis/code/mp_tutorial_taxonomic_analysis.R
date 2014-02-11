@@ -16,7 +16,7 @@ par(mfrow=c(1,2)) # multiple plots in one graph
 hist(as.matrix(HOT_data))
 hist(as.matrix(log(HOT_data + 1)))
 HOT_data <- log(HOT_data + 1)
-par(mfrow=c(1,2))
+par(mfrow=c(1,1))
 
 ## 3. Distance Matrices and Clustering
 HOT_data.t <- t(HOT_data) # transpose HOT_data
@@ -95,11 +95,11 @@ colnames(HOT_data.m)[2] = "sample" # rename variable column to sample
 
 # in order to plot things in properly, the order of each variable has to be explicitly set
 name_order <- HOT_data.bcdist.ward.fit$labels[HOT_data.bcdist.ward.fit$order] # get order of samples from clustering
-HOT_data.m$sample <- factor(HOT_data.log.m$sample, levels=name_order) # set order of samples
-HOT_data.m$taxa <- factor(HOT_data.log.m$taxa, levels=unique(HOT_data.log.m$taxa)) # set order of taxa
+HOT_data.m$sample <- factor(HOT_data.m$sample, levels=name_order) # set order of samples
+HOT_data.m$taxa <- factor(HOT_data.m$taxa, levels=unique(HOT_data.m$taxa)) # set order of taxa
 
 # cut bray-curtis clustering to get groups
-bc_ward_groups <- cutree(HOT_data.bcdist.ward.fit, h=0.2) # slice dendrogram for groups (hight=0.2)
+bc_ward_groups <- cutree(HOT_data.bcdist.ward.fit, h=0.12) # slice dendrogram for groups (hight=0.2)
 HOT_data.m$clust_group <- as.vector(bc_ward_groups[as.vector(HOT_data.m[,"sample"])])
 HOT_data.m$clust_group <- as.factor(HOT_data.m$clust_group) # set group numbers as factors
 
