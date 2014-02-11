@@ -1,0 +1,1847 @@
+PWY_NAME	PWY_COMMON_NAME
+PWY-6240	starch plastidic translocation I
+PWY-6238	nucleobase ascorbate transport II
+PWY-6237	nucleobase ascorbate transport I
+PWY-6229	nucleobase derivative transport
+PWY-6213	cadmium transport I
+PWY-6188	calmodulin regulated calcium transport
+PWY-6171	calcium transport II
+PWY-6166	calcium transport I
+PWY-6162	HAK potassium transport
+PWY-6161	sodium transport I
+PWY-6159	potassium transport IV
+PWY-6156	potassium transport III
+PWY-6150	potassium transport II
+PWY-6149	potassium transport I
+PWY-6137	copper transport II
+PWY-6135	copper transport I
+PWY-5937	Fe(III)-phytosiderophore transport
+PWY-5934	Fe(III)-reduction and Fe(II) transport
+TCA	TCA cycle I (prokaryotic)
+REDCITCYC	TCA cycle III (helicobacter)
+PWY-6969	TCA cycle V (2-oxoglutarate:ferredoxin oxidoreductase)
+PWY-5913	TCA cycle VI (obligate autotrophs)
+PWY-5690	TCA cycle II (eukaryotic)
+P105-PWY	TCA cycle IV (2-oxoglutarate decarboxylase)
+GLYOXYLATE-BYPASS	glyoxylate cycle
+PWY-6530	perchlorate reduction
+PWY-6529	chlorate reduction
+PWY-4601	arsenate reduction (respiratory)
+ANARESP1-PWY	respiration (anaerobic)
+PWY-4302	aerobic respiration (alternative oxidase pathway)
+PWY-3781	aerobic respiration (cytochrome c)
+PWY-241	C4 photosynthetic carbon assimilation cycle
+PWY-181	photorespiration
+PWY-101	photosynthesis light reactions
+P21-PWY	pentose phosphate pathway (partial)
+OXIDATIVEPENT-PWY	pentose phosphate pathway (oxidative branch)
+NONOXIPENT-PWY	pentose phosphate pathway (non-oxidative branch)
+PWY66-368	ketolysis
+PWY66-367	ketogenesis
+PWY-6118	glycerol-3-phosphate shuttle
+PWY-5261	methanogenesis from tetramethylammonium
+PWY-5259	methanogenesis from methanethiol
+PWY-5250	methanogenesis from trimethylamine
+PWY-5248	methanogenesis from dimethylamine
+PWY-5247	methanogenesis from methylamine
+PWY-5209	methyl-coenzyme M oxidation to CO2
+METHFORM-PWY	methyl-coenzyme M reduction to methane
+METHANOGENESIS-PWY	methanogenesis from CO2
+METH-ACETATE-PWY	methanogenesis from acetate
+PWY-6785	hydrogen production VIII
+PWY-6780	hydrogen production VI
+PWY-6772	hydrogen production V
+PWY-6765	hydrogen production IV
+PWY-6759	hydrogen production III
+PWY-6758	hydrogen production II
+PWY-6744	hydrogen production I
+PWY-5484	glycolysis II (from fructose-6P)
+PWY-1042	glycolysis IV (plant cytosol)
+P341-PWY	glycolysis V (Pyrococcus)
+GLYCOLYSIS	glycolysis I
+ANAGLYCOLYSIS-PWY	glycolysis III (glucokinase)
+PWY-6588	pyruvate fermentation to acetone
+PWY-6587	pyruvate fermentation to ethanol III
+PWY-5768	pyruvate fermentation to acetate VIII
+PWY-5494	pyruvate fermentation to propionate II (acrylate pathway)
+PWY-5486	pyruvate fermentation to ethanol II
+PWY-5482	pyruvate fermentation to acetate II
+PWY-5481	pyruvate fermentation to lactate
+PWY-5480	pyruvate fermentation to ethanol I
+P108-PWY	pyruvate fermentation to propionate I
+CENTFERM-PWY	pyruvate fermentation to butanoate
+PWY-6392	meso-butanediol biosynthesis II
+PWY-6391	meso-butanediol biosynthesis I
+PWY-6390	(S,S)-butanediol biosynthesis
+PWY-5951	(R,R)-butanediol biosynthesis
+PWY3O-440	acetoin biosynthesis III
+PWY-6389	(S)-acetoin biosynthesis
+PWY-5939	(R)-acetoin biosynthesis II
+PWY-5938	(R)-acetoin biosynthesis I
+PWY-6863	pyruvate fermentation to hexanol
+PWY-6583	pyruvate fermentation to butanol I
+PWY-5677	succinate fermentation to butyrate
+P122-PWY	heterolactic fermentation
+FERMENTATION-PWY	mixed acid fermentation
+PYRUVOX-PWY	pyruvate oxidation pathway
+PWY0-1356	formate to dimethyl sulfoxide electron transfer
+PWY0-1355	formate to trimethylamine N-oxide electron transfer
+PWY0-1353	succinate to cytochrome bd oxidase electron transfer
+PWY0-1348	NADH to dimethyl sulfoxide electron transfer
+PWY0-1347	NADH to trimethylamine N-oxide electron transfer
+PWY0-1336	NADH to fumarate electron transfer
+PWY0-1335	NADH to cytochrome bo oxidase electron transfer
+PWY0-1334	NADH to cytochrome bd oxidase electron transfer
+PWY0-1329	succinate to cytochrome bo oxidase electron transfer
+PWY-6512	hydrogen oxidation III (anaerobic, NADP)
+PWY-5382	hydrogen oxidation II (aerobic, NAD)
+P283-PWY	hydrogen oxidation I (aerobic)
+P301-PWY	galena oxidation
+P282-PWY	nitrite oxidation
+PWY-6970	acetyl-CoA biosynthesis II (NADP-dependent pyruvate dehydrogenase)
+PWY-5172	acetyl-CoA biosynthesis III (from citrate)
+PWY0-1517	sedoheptulose bisphosphate bypass
+PWY-6938	NADH repair
+PWY-6883	pyruvate fermentation to butanol II
+PWY-6876	isopropanol biosynthesis
+PWY-6871	3-methylbutanol biosynthesis
+PWY-6859	all-trans-farnesol biosynthesis
+PWY-6728	methylaspartate cycle
+PWY-5741	ethylmalonyl pathway
+PWY-5723	Rubisco shunt
+PWY-5197	lactate biosynthesis (archaea)
+ENTNER-DOUDOROFF-PWY	Entner-Doudoroff pathway I
+PWY-6873	long chain fatty acid ester synthesis for microdiesel production
+P641-PWY	phenylmercury acetate degradation
+PWY-6726	cyanide detoxification I
+PWY-6421	arsenate detoxification III (mycothiol)
+PWY-4621	arsenate detoxification II (glutaredoxin)
+PWY-4202	arsenate detoxification I (glutaredoxin)
+PWY-4521	arsenite oxidation (respiratory)
+PWY-6828	linezolid resistance
+PWY0-1305	glutamate dependent acid resistance
+PWY0-1299	arginine dependent acid resistance
+PWY-6900	nectroscordum lachrymator biosynthesis
+PWY-6842	glutathione-mediated detoxification II
+PWY-6786	detoxification of reactive carbonyls in chloroplasts
+PWY-6646	fluoroacetate degradation
+PWY-6502	oxidized GTP and dGTP detoxification
+PWY-2261	ascorbate glutathione cycle
+DETOX1-PWY	superoxide radicals degradation
+PWY-6946	cholesterol degradation to androstenedione II (cholesterol dehydrogenase)
+PWY-6945	cholesterol degradation to androstenedione I (cholesterol oxidase)
+PWY-6948	sitosterol degradation to androstenedione
+PWY-6944	androstenedione degradation
+PWY-6943	testosterone and androsterone degradation to androstendione
+PWY-6526	limonene degradation III (to perillate)
+PWY-5924	limonene degradation II (L-limonene)
+PWY-5923	limonene degradation I (D-limonene)
+PWY-5927	(4S)-carveol and (4S)-dihydrocarveol degradation
+PWY-5922	(4R)-carveol and (4R)-dihydrocarveol degradation
+PWY-6678	geraniol and nerol degradation
+PWY-6672	cis-genanyl-CoA degradation
+PWY-6670	citronellol degradation
+PWY-6413	ginsenoside degradation III
+PWY-6412	ginsenoside degradation II
+PWY-6411	ginsenoside degradation I
+P601-PWY	D-camphor degradation
+6-HYDROXYCINEOLE-DEGRADATION-PWY	1,8-cineole degradation
+PWY-6806	carotenoid cleavage dioxygenases
+SORBDEG-PWY	sorbitol degradation II
+RIBITOLUTIL-PWY	ribitol degradation
+PWY-6531	mannitol cycle
+PWY-4101	sorbitol degradation I
+P562-PWY	myo-inositol degradation
+MANNIDEG-PWY	mannitol degradation I
+LARABITOLUTIL-PWY	xylitol degradation
+GALACTITOLCAT-PWY	galactitol degradation
+DARABITOLUTIL-PWY	D-arabitol degradation
+PWY-6501	D-glucuronate degradation II
+PWY-5525	D-glucuronate degradation I
+GLUCUROCAT-PWY	beta-D-glucuronide and D-glucuronate degradation
+PWY-6499	D-glucarate degradation II
+GLUCARDEG-PWY	D-glucarate degradation I
+PWY-6491	D-galacturonate degradation III
+PWY-6486	D-galacturonate degradation II
+GALACTUROCAT-PWY	D-galacturonate degradation I
+PWY-6497	D-galactarate degradation II
+GALACTARDEG-PWY	D-galactarate degradation I
+PWY0-1306	L-galactonate degradation
+IDNCAT-PWY	L-idonate degradation
+GALACTCAT-PWY	D-galactonate degradation
+PWY-4781	phytate degradation II
+PWY-4702	phytate degradation I
+PWY0-521	fructoselysine and psicoselysine degradation
+PWY0-1261	1,6-anhydro-N-acetylmuramic acid recycling
+PWY-6507	5-dehydro-4-deoxy-D-glucuronate degradation
+PWY-6667	resveratrol degradation
+PWY-6684	glucosinolate breakdown (via thiocyanate-forming protein)
+PWY-6011	amygdalin and prunasin degradation
+PWY-6002	lotaustralin degradation
+PWY-5976	dhurrin degradation
+PWY-3121	linamarin degradation
+PWY-6633	caffeine degradation V (bacteria, to trimethylurate)
+PWY-6553	caffeine degradation II
+PWY-6552	caffeine degradation I (main, plants)
+PWY-6538	caffeine degradation III (bacteria, via demethylation)
+PWY-5461	betanidin degradation
+PWY-5708	ethiin degradation
+PWY-5706	alliin degradation
+PWY-31	canavanine degradation
+PWY-6848	rutin degradation
+PWY0-1527	curcumin degradation
+PWY-4441	DIMBOA-glucoside degradation
+PWY-6423	hemoglobin degradation
+PWY-6018	seed germination protein turnover
+PWY-5988	wound-induced proteolysis I
+PWY-6341	guaiacylglycerol-beta-guaiacyl ether degradation
+PWY-743	thiocyanate degradation II
+P581-PWY	thiocyanate degradation I
+PWY66-221	nicotine degradation III
+PWY66-201	nicotine degradation II
+P181-PWY	nicotine degradation I
+PWY-5336	carbon disulfide oxidation II (aerobic)
+PWY-1164	carbon disulfide oxidation I (anaerobic)
+PWY66-241	bupropion degradation
+PWY1G-1	mycothiol-mediated detoxification
+PWY-723	alkylnitronates degradation
+PWY-6518	glycocholate metabolism (bacteria)
+PWY-6377	alpha-tocopherol degradation
+PWY-5744	glyoxylate assimilation
+PWY-5355	nitroethane degradation
+P621-PWY	nylon-6 oligomer degradation
+P482-PWY	arsonoacetate degradation
+P481-PWY	adamantanone degradation
+P401-PWY	cyanide degradation
+P344-PWY	acrylonitrile degradation
+P221-PWY	octane oxidation
+P201-PWY	nitroglycerin degradation
+7ALPHADEHYDROX-PWY	cholate degradation (bacteria, anaerobic)
+PWY-4061	glutathione-mediated detoxification
+P161-PWY	acetylene degradation
+THIOSULFOX-PWY	thiosulfate oxidation I (to tetrathionate)
+PWY-6677	thiosulfate oxidation IV (multienzyme complex)
+PWY-5303	thiosulfate oxidation II (to tetrathionate)
+PWY-5296	thiosulfate oxidation III (multienzyme complex)
+PWY-5352	thiosulfate disproportionation II (non thiol-dependent)
+PWY-5277	thiosulfate disproportionation I (thiol-dependent)
+PWY-5350	thiosulfate disproportionation III (rhodanese)
+PWY-5359	tetrathionate reductiuon II (to trithionate)
+PWY-5358	tetrathionate reduction I (to thiosulfate)
+PWY-5364	sulfur reduction II (via polysulfide)
+PWY-5332	sulfur reduction I
+PWY-6675	sulfur oxidation IV (intracellular sulfur)
+SULFUROX-PWY	sulfur oxidation I (aerobic)
+FESULFOX-PWY	sulfur oxidation II (Fe+3-dependent)
+PWY-5302	sulfur disproportionation II (aerobic)
+P203-PWY	sulfur disproportionation I (anaerobic)
+PWY-6638	sulfolactate degradation III
+PWY-6637	sulfolactate degradation II
+PWY-6616	sulfolactate degradation I
+PWY-6718	sulfoacetaldehyde degradation III
+PWY-5982	sulfoacetaldehyde degradation II
+PWY-1281	sulfoacetaldehyde degradation I
+PWY-5326	sulfite oxidation IV
+PWY-5279	sulfite oxidation II
+PWY-5278	sulfite oxidation III
+PWY-5276	sulfite oxidation I (sulfite oxidoreductase)
+PWY-5274	sulfide oxidation II (sulfide dehydrogenase)
+PWY-5285	sulfide oxidation III (sulfur dioxygenase)
+P222-PWY	sulfide oxidation I (sulfide-quinone reductase)
+SULFMETII-PWY	sulfate reduction II (assimilatory)
+PWY-6683	sulfate reduction III (assimilatory)
+P224-PWY	sulfate reduction V (dissimilatory)
+DISSULFRED-PWY	sulfate reduction IV (dissimilatory)
+PWY-6048	methylthiopropionate degradation I (cleavage)
+PWY-6045	methylthiopropionate degradation II (demethylation)
+PWY-6056	dimethylsulfoniopropionate degradation II (cleavage)
+PWY-6052	dimethylsulfoniopropionate degradation III (demethylation)
+PWY-6046	dimethylsulfoniopropionate degradation I (cleavage)
+PWY-6059	dimethyl sulfide degradation II (oxidation)
+PWY-6057	dimethyl sulfide degradation III (oxidation)
+PWY-6047	dimethyl sulfide degradation I
+PWY-6736	sulfur volatiles biosynthesis
+PWY-6642	(R)-cysteate degradation
+PWY-6634	2,3-dihydroxypropane-1-sulfonate degradation
+PWY-6593	sulfoacetate degradation
+PWY-6327	tetrathionate oxidation
+PWY-6321	homotaurine degradation
+PWY-6058	dimethyl sulfone degradation
+PWY-6050	dimethyl sulfoxide degradation
+PWY-6044	methanesulfonate degradation
+PWY-6043	ethanedisulfonate degradation
+PWY-5707	isoalliin degradation
+PWY-5260	methanogenesis from methylthiopropionate
+PWY-5258	methanogenesis from dimethylsulfide
+PWY-2601	isethionate degradation
+ALKANEMONOX-PWY	two-component alkanesulfonate monooxygenase
+PWY-6832	2-aminoethylphosphonate degradation II
+PHOSPHONOTASE-PWY	2-aminoethylphosphonate degradation I
+PWY0-1533	methylphosphonate degradation
+PWY-6357	phosphate utilization in cell wall regeneration
+PWY-6348	phosphate acquisition
+PWY-5491	diethylphosphate degradation
+P483-PWY	phosphonoacetate degradation
+PWY490-3	nitrate reduction VI (assimilatory)
+PWY-6748	nitrate reduction VII (denitrification)
+PWY-5675	nitrate reduction V (assimilatory)
+PWY-5674	nitrate reduction IV (dissimilatory)
+PWY-381	nitrate reduction II (assimilatory)
+DENITRIFICATION-PWY	nitrate reduction I (denitrification)
+PWY0-1352	nitrate reduction VIII (dissimilatory)
+PWY0-1321	nitrate reduction III (dissimilatory)
+PWY-2242	ammonia oxidation III
+P303-PWY	ammonia oxidation II (anaerobic)
+AMMOXID-PWY	ammonia oxidation I (aerobic)
+PWY-6964	ammonia assimilation cycle II
+PWY-6963	ammonia assimilation cycle I
+PWY-6523	intra-aerobic nitrite reduction
+PWY-4984	urea cycle
+N2FIX-PWY	nitrogen fixation
+PWY-5986	ammonium transport
+CYANCAT-PWY	cyanate degradation
+PWY-6592	manganese oxidation II
+PWY-6591	manganese oxidation I
+PWY-6932	selenate reduction
+PWY-6692	Fe(II) oxidation
+PWY-5949	Fe(II)-nicotianamine transport in phloem
+PWY0-1471	uracil degradation III
+PWY-6426	uracil degradation I (oxidative)
+PWY0-1295	pyrimidine ribonucleosides degradation I
+PWY-6556	pyrimidine ribonucleosides degradation II
+PWY0-1298	pyrimidine deoxyribonucleosides degradation
+PWY-6430	thymine degradation
+PWY-6608	guanosine nucleotides degradation III
+PWY-6607	guanosine nucleotides degradation I
+PWY-6606	guanosine nucleotides degradation II
+SALVADEHYPOX-PWY	adenosine nucleotides degradation II
+PWY-6617	adenosine nucleotides degradation III
+PWY-6596	adenosine nucleotides degradation I
+PWY-5532	adenosine nucleotides degradation IV
+PWY0-1296	purine ribonucleosides degradation to ribose-1-phosphate
+PWY-6019	pseudouridine degradation
+PWY-5497	purine nucleotides degradation IV (anaerobic)
+P164-PWY	purine nucleotides degradation III (anaerobic)
+PWY0-1391	S-methyl-5-thioadenosine degradation IV
+PWY-6756	S-methyl-5-thioadenosine degradation II
+PWY-6754	S-methyl-5-thioadenosine degradation I
+PWY-6753	S-methyl-5-thioadenosine degradation III
+PWY0-1297	purine deoxyribonucleosides degradation
+PWY-6227	purine uptake
+PWY-6261	thyroid hormone metabolism II (via conjugation and/or degradation)
+PWY-6260	thyroid hormone metabolism I (via deiodination)
+PWY-2841	cytokinins degradation
+PWY-5811	IAA degradation VII
+PWY-5797	IAA degradation VI
+PWY-5788	IAA degradation V
+PWY-5784	IAA conjugate biosynthesis II
+PWY-2021	IAA degradation IV
+PWY-1981	IAA degradation III
+PWY-1962	IAA degradation II
+PWY-1961	IAA degradation I
+PWY-6400	melatonin degradation III
+PWY-6399	melatonin degradation II
+PWY-6398	melatonin degradation I
+PWY-6688	thyronamine and iodothyronamine metabolism
+PWY-6342	noradrenaline and adrenaline degradation
+PWY-6313	serotonin degradation
+PWY0-1337	oleate beta-oxidation
+PWY-6837	fatty acid beta-oxidation V (unsaturated, odd number, di-isomerase-dependent)
+PWY-5138	fatty acid beta-oxidation IV (unsaturated, even number)
+PWY-5137	fatty acid beta-oxidation III (unsaturated, odd number)
+PWY-5136	fatty acid beta-oxidation II (core pathway)
+PWY-2724	fatty acid omega-oxidation
+PWY-2501	fatty acid alpha-oxidation
+FAO-PWY	fatty acid beta-oxidation I
+PWY-5533	acetone degradation II (to acetoacetate)
+PWY-5451	acetone degradation I (to methylglyoxal)
+SOPHOROSYLOXYDOCOSANOATE-DEG-PWY	sophorosyloxydocosanoate degradation
+PWY6666-1	anandamide degradation
+PWY3DJ-11470	sphingosine and sphingosine-1-phosphate metabolism
+PWY-6483	ceramide degradation
+PWY-6368	3-phosphoinositide degradation
+PWY-6111	mitochondrial L-carnitine shuttle pathway
+LIPAS-PWY	triacylglycerol degradation
+ACETOACETATE-DEG-PWY	acetoacetate degradation (to acetyl CoA)
+LIPASYN-PWY	phospholipases
+XYLCAT-PWY	xylose degradation I
+PWY-6760	xylose degradation III
+PWY-5516	xylose degradation II
+TREDEGLOW-PWY	trehalose degradation I (low osmolarity)
+PWY0-1466	trehalose degradation VI (periplasmic)
+PWY0-1182	trehalose degradation II (trehalase)
+PWY-2723	trehalose degradation V
+PWY-2722	trehalose degradation IV
+PWY-2721	trehalose degradation III
+SUCUTIL-PWY	sucrose degradation I
+SUCROSEUTIL2-PWY	sucrose degradation II
+PWY66-373	sucrose degradation V (mammalian)
+PWY-621	sucrose degradation III
+PWY-5384	sucrose degradation IV
+LACTOSEUTIL-PWY	lactose degradation II
+BGALACT-PWY	lactose degradation III
+RHAMCAT-PWY	L-rhamnose degradation I
+PWY-6714	L-rhamnose degradation III
+PWY-6713	L-rhamnose degradation II
+PWY-5517	L-arabinose degradation III
+PWY-5515	L-arabinose degradation II
+ARABCAT-PWY	L-arabinose degradation I
+PWY-6693	galactose degradation IV
+PWY-6317	galactose degradation I (Leloir pathway)
+LACTOSECAT-PWY	lactose and galactose degradation I
+GALDEG-PWY	galactose degradation II
+PWY-5519	D-arabinose degradation III
+DARABCATK12-PWY	D-arabinose degradation I
+DARABCAT-PWY	D-arabinose degradation II
+RIBOKIN-PWY	ribose degradation
+PWY0-44	D-allose degradation
+PWY0-1314	fructose degradation
+PWY0-1301	melibiose degradation
+PWY0-1300	2-O-alpha-mannosyl-D-glycerate degradation
+PWY-3861	mannitol degradation II
+PWY-2221	Entner-Doudoroff pathway III (semi-phosphorylative)
+PWY-1081	homogalacturonan degradation
+P302-PWY	L-sorbose degradation
+P124-PWY	Bifidobacterium shunt
+NPGLUCAT-PWY	Entner-Doudoroff pathway II (non-phosphorylative)
+MANNCAT-PWY	D-mannose degradation
+MALTOSECAT-PWY	maltose degradation
+LYXMET-PWY	L-lyxose degradation
+GLUCOSE1PMETAB-PWY	glucose and glucose-1-phosphate degradation
+FUCCAT-PWY	fucose degradation
+DHGLUCONATE-PYR-CAT-PWY	glucose degradation (oxidative)
+PWY-6812	xyloglucan degradation III (cellobiohydrolase)
+PWY-6807	xyloglucan degradation II (exoglucanase)
+PWY-6791	xyloglucan degradation I (endoglucanase)
+PWY-6789	(1,3)-beta-D-xylan degradation
+PWY-6717	(1,4)-beta-xylan degradation
+PWY-6737	starch degradation V
+PWY-6735	starch degradation IV
+PWY-6731	starch degradation III
+PWY-6771	rhamnogalacturonan type I degradation II (bacteria)
+PWY-6769	rhamnogalacturonan type I degradation I (fungi)
+PWY-6576	dermatan sulfate degradation (metazoa)
+PWY-6573	chondroitin sulfate degradation (metazoa)
+PWY-6572	chondroitin sulfate and dermatan sulfate degradation I (bacterial)
+PWY-5941	glycogen degradation II
+PWY-6906	chitin derivatives degradation
+PWY-6902	chitin degradation II
+PWY-6855	chitin degradation I (archaea)
+PWY-6805	cellulose degradation I (cellulosome)
+PWY-6788	cellulose degradation II (fungi)
+PWY-6822	iota-carrageenan degradation
+PWY-6821	kappa-carrageenan degradation
+PWY-6817	lambda-carrageenan degradation
+PWY-6827	gellan degradation
+PWY-6816	agarose degradation
+PWY-6815	porphyran degradation
+PWY-6813	glucuronoarabinoxylan degradation
+PWY-6790	L-arabinan degradation
+PWY0-1309	chitobiose degradation
+PWY-6527	stachyose degradation
+PWY-6028	acetoin degradation
+PWY-6927	chlorophyll a degradation II
+PWY-5874	heme degradation
+PWY-5098	chlorophyll a degradation I
+PWY-6370	ascorbate recycling (cytosolic)
+PWY-5372	carbon tetrachloride degradation II
+PWY-5370	carbon tetrachloride degradation I
+PWY-5369	carbon tetrachloride degradation III
+PWY-5822	trichloroethylene degradation
+PCPDEG-PWY	pentachlorophenol degradation
+PCEDEG-PWY	tetrachloroethene degradation
+GAMMAHEXCHLORDEG-PWY	gamma-hexachlorocyclohexane degradation
+12DICHLORETHDEG-PWY	1,2-dichloroethane degradation
+PWY0-43	conversion of succinate to propionate
+PWY0-42	2-methylcitrate cycle I
+PWY-5747	2-methylcitrate cycle II
+PROPIONMET-PWY	methylmalonyl pathway
+PWY-6698	oxalate degradation V
+PWY-6697	oxalate degradation IV
+PWY-6696	oxalate degradation III
+PWY-6695	oxalate degradation II
+PWY-6694	oxalate degradation I
+PWY-6060	malonate degradation II (biotin-dependent)
+PWY-5794	malonate degradation I (biotin-independent)
+PWY-6649	glycolate and glyoxylate degradation III
+GLYOXDEG-PWY	glycolate and glyoxylate degradation II
+GLYCOLATEMET-PWY	glycolate and glyoxylate degradation I
+PWY0-301	L-ascorbate degradation I (bacterial, anaerobic)
+PWY-6961	L-ascorbate degradation II (bacterial, aerobic)
+PWY-6960	L-ascorbate degradation III
+PWY-6959	L-ascorbate degradation V
+PWY-6704	L-ascorbate degradation IV
+PWY0-1312	acetate formation from acetyl-CoA I
+PWY-5536	acetate formation from acetyl-CoA III (succinate)
+PWY-5535	acetate formation from acetyl-CoA II
+2OXOBUTYRATECAT-PWY	2-oxobutanoate degradation II
+PYRUVDEHYD-PWY	acetyl-CoA biosynthesis I (pyruvate dehydrogenase complex)
+PWY0-1465	D-malate degradation
+PWY0-1313	acetate conversion to acetyl-CoA
+PWY-804	glycolate degradation II
+PWY-6373	acrylate degradation
+PWY-6038	citrate degradation
+PWY-6021	nitrilotriacetate degradation
+PWY-5749	itaconate degradation
+PWY-5654	2-amino-3-carboxymuconate semialdehyde degradation to 2-oxopentenoate
+PWY-5652	2-amino-3-carboxymuconate semialdehyde degradation to glutaryl-CoA
+PWY-5534	propylene degradation
+PWY-5177	glutaryl-CoA degradation
+PWY-5162	2-oxopentenoate degradation
+PWY-5074	mevalonate degradation
+PWY-301	cyclohexane-1-carboxylate degradation (anaerobic)
+PWY-2361	3-oxoadipate degradation
+GLUCONSUPER-PWY	D-gluconate degradation
+PWY-6966	methanol oxidation to formaldehyde I
+PWY-6510	methanol oxidation to formaldehyde II
+PWY-6509	methanol oxidation to formaldehyde III
+PWY-5506	methanol oxidation to formaldehyde IV
+PWY-6742	methane oxidation to methanol II
+PWY-1641	methane oxidation to methanol I
+RUMP-PWY	formaldehyde oxidation I
+PWY1G-170	formaldehyde oxidation III (mycothiol-dependent)
+PWY-1801	formaldehyde oxidation II (glutathione-dependent)
+PWY-1723	formaldehyde oxidation VI (H4MPT pathway)
+PWY-1722	formaldehyde oxidation V (tetrahydrofolate pathway)
+FORMASS-PWY	formaldehyde oxidation IV (thiol-independent)
+PWY-1861	formaldehyde assimilation II (RuMP Cycle)
+PWY-1622	formaldehyde assimilation I (serine pathway)
+P185-PWY	formaldehyde assimilation III (dihydroxyacetone cycle)
+PWY-5392	reductive TCA cycle II
+P42-PWY	incomplete reductive TCA cycle
+P23-PWY	reductive TCA cycle I
+PWY-5789	3-hydroxypropionate/4-hydroxybutyrate cycle
+PWY-5743	3-hydroxypropionate cycle
+CODH-PWY	reductive acetyl coenzyme A pathway
+PWYQT-4429	CO2 fixation into oxaloacetate (anapleurotic)
+PWY-5493	reductive monocarboxylic acid cycle
+CO2FORM-PWY	methanogenesis from methanol
+PWY-1881	formate oxidation to CO2
+VALDEG-PWY	valine degradation I
+PWY-5057	valine degradation II
+TYRFUMCAT-PWY	tyrosine degradation I
+PWY3O-4108	tyrosine degradation III
+PWY-5151	tyrosine degradation II
+TRYPDEG-PWY	tryptophan degradation II (via pyruvate)
+TRPKYNCAT-PWY	tryptophan degradation IV (via indole-3-lactate)
+TRPCAT-PWY	tryptophan degradation I (via anthranilate)
+PWY-6307	tryptophan degradation X (mammalian, via tryptamine)
+PWY-5651	tryptophan degradation to 2-amino-3-carboxymuconate semialdehyde
+PWY-5081	tryptophan degradation VIII (to tryptophol)
+PWY-3162	tryptophan degradation V (side chain pathway)
+THREONINE-DEG2-PWY	threonine degradation II
+THRDLCTCAT-PWY	threonine degradation III (to methylglyoxal)
+PWY-5437	threonine degradation I
+PWY-5436	threonine degradation IV
+SERDEG-PWY	L-serine degradation
+PWY0-1535	D-serine degradation
+PROUT-PWY	proline degradation
+PWY-6318	phenylalanine degradation IV (mammalian, via side chain)
+PWY-5079	phenylalanine degradation III
+PHENYLALANINE-DEG1-PWY	phenylalanine degradation I (aerobic)
+ANAPHENOXI-PWY	phenylalanine degradation II (anaerobic)
+TAURINEDEG-PWY	taurine degradation III
+PWY0-981	taurine degradation IV
+PWY-1264	taurine degradation II
+PWY-1263	taurine degradation I
+PWY-5029	imidazole-lactate degradation
+ORN-AMINOPENTANOATE-CAT-PWY	ornithine degradation I (proline biosynthesis)
+OCTOPINEDEG-PWY	octopine degradation
+NOPALINEDEG-PWY	nopaline degradation
+CITRULLINE-DEG-PWY	citrulline degradation
+PWY-701	methionine degradation II
+PWY-5082	methionine degradation III
+METHIONINE-DEG1-PWY	methionine degradation I (to homocysteine)
+PWY0-461	lysine degradation I
+PWY-6328	lysine degradation X
+PWY-5324	lysine degradation IX
+PWY-5314	lysine degradation VIII
+PWY-5311	lysine degradation VII
+PWY-5298	lysine degradation VI
+PWY-5283	lysine degradation V
+PWY-5280	lysine degradation IV
+LYSINE-DEG1-PWY	lysine degradation II
+LYSDEGII-PWY	lysine degradation III
+P163-PWY	lysine fermentation to acetate and butyrate
+PWY-5076	leucine degradation III
+PWY-5075	leucine degradation II
+LEU-DEG2-PWY	leucine degradation I
+PWY-5078	isoleucine degradation II
+ILEUDEG-PWY	isoleucine degradation I
+PWY-5031	histidine degradation V
+PWY-5030	histidine degradation III
+PWY-5028	histidine degradation II
+HISTDEG-PWY	histidine degradation IV
+HISHP-PWY	histidine degradation VI
+HISDEG-PWY	histidine degradation I
+GLYCLEAV-PWY	glycine cleavage complex
+GLUTAMINEFUM-PWY	glutamine degradation II
+GLUTAMINDEG-PWY	glutamine degradation I
+PWY-5766	glutamate degradation X
+PWY-5087	glutamate degradation VI (to pyruvate)
+PWY-4321	glutamate degradation IV
+GLUTAMATE-DEG1-PWY	glutamate degradation I
+GLUDEG-I-PWY	glutamate degradation III (via 4-aminobutyrate)
+P162-PWY	glutamate degradation V (via hydroxyglutarate)
+PWY-5329	L-cysteine degradation III
+LCYSDEG-PWY	L-cysteine degradation II
+CYSTEINE-DEG-PWY	L-cysteine degradation I
+PWY-1781	beta-alanine degradation II
+BETA-ALA-DEGRADATION-I-PWY	beta-alanine degradation I
+MALATE-ASPARTATE-SHUTTLE-PWY	aspartate degradation II
+ASPARTATE-DEG1-PWY	aspartate degradation I
+PWY-4002	asparagine degradation II
+ASPARAGINE-DEG1-PWY	asparagine degradation I
+PWY-6422	D-arginine degradation
+PWY-5742	arginine degradation IX (arginine:pyruvate transaminase pathway)
+PWY-5024	arginine degradation XI
+AST-PWY	arginine degradation II (AST pathway)
+ARGDEG-V-PWY	arginine degradation X (arginine monooxygenase pathway)
+ARGDEG-IV-PWY	arginine degradation VIII (arginine oxidase pathway)
+ARGDEG-III-PWY	arginine degradation IV (arginine decarboxylase/agmatine deiminase pathway)
+ARG-GLU-PWY	arginine degradation VII (arginase 3 pathway)
+PWY1-2	alanine degradation IV
+ALANINE-DEG3-PWY	alanine degradation III
+ALADEG-PWY	alanine degradation I
+ALACAT2-PWY	alanine degradation II (to D-lactate)
+PWY-5159	4-hydroxyproline degradation II
+HYDROXYPRODEG-PWY	4-hydroxyproline degradation I
+PWY-6344	ornithine degradation II (Stickland reaction)
+PWY-6334	L-dopa degradation
+PWY-5084	2-ketoglutarate dehydrogenase complex
+PWY-5046	branched-chain alpha-keto acid dehydrogenase complex
+PWY0-1317	L-lactaldehyde degradation (aerobic)
+PWY0-1315	L-lactaldehyde degradation (anaerobic)
+PWY-901	methylglyoxal degradation II
+PWY-5462	methylglyoxal degradation VIII
+PWY-5458	methylglyoxal degradation V
+PWY-5456	methylglyoxal degradation VII
+PWY-5453	methylglyoxal degradation III
+PWY-5386	methylglyoxal degradation I
+MGLDLCTANA-PWY	methylglyoxal degradation VI
+PWY-4261	glycerol degradation I
+PWY-6952	glycerophosphodiester degradation
+PWY-6131	glycerol degradation II
+PWY-6130	glycerol degradation III
+GLYCEROLMETAB-PWY	glycerol degradation V
+PWY66-21	ethanol degradation II
+PWY66-162	ethanol degradation IV
+PWY66-161	oxidative ethanol degradation III
+ETOH-ACETYLCOA-ANA-PWY	ethanol degradation I
+PWY3O-246	(R,R)-butanediol degradation
+PWY-6388	(S,S)-butanediol degradation
+PWY0-1280	ethylene glycol degradation
+PWY-6464	polyvinyl alcohol degradation
+CYCLOHEXANOL-OXIDATION-PWY	cyclohexanol degradation
+PWY-5731	atrazine degradation III
+PWY-5727	atrazine degradation II
+P141-PWY	atrazine degradation I (aerobic)
+PWY-5726	deethylsimazine degradation
+PWY-5171	N-cyclopropylmelamine degradation
+PWY-5170	melamine degradation
+PWY-5429	p-xylene degradation to p-toluate
+PWY-5428	m-xylene degradation to m-toluate
+PWY-5691	urate degradation to allantoin
+TOLUENE-DEG-DIOL-PWY	toluene degradation to 2-oxopent-4-enoate (via toluene-cis-diol)
+TOLUENE-DEG-CATECHOL-PWY	toluene degradation to benzoate
+TOLUENE-DEG-4-OH-PWY	toluene degradation to protocatechuate (via p-cresol)
+TOLUENE-DEG-3-OH-PWY	toluene degradation to 2-oxopent-4-enoate (via 4-methylcatechol)
+TOLUENE-DEG-2-OH-PWY	toluene degradation to 2-oxopent-4-enoate I (via o-cresol)
+PWY-81	toluene degradation to benzoyl-CoA (anaerobic)
+TOLSULFDEG-PWY	4-toluenesulfonate degradation I
+PWY-5165	4-toluenesulfonate degradation II
+PWY-6041	4-sulfocatechol degradation
+DESULFONATION-PWY	benzenesulfonate degradation
+SHIKIMATEDEG-PWY	shikimate degradation I
+PWY-6419	shikimate degradation II
+PWY-6640	salicylate degradation IV
+PWY-6636	salicylate degradation III
+PWY-6224	salicylate degradation II
+PWY-6183	salicylate degradation I
+QUINATEDEG-PWY	quinate degradation I
+PWY-6416	quinate degradation II
+PWY-6336	protocatechuate degradation III (para-cleavage pathway)
+PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY	protocatechuate degradation II (ortho-cleavage pathway)
+P184-PWY	protocatechuate degradation I (meta-cleavage pathway)
+PWY0-321	phenylacetate degradation I (aerobic)
+PWY-1341	phenylacetate degradation II (anaerobic)
+PWY-5418	phenol degradation I (aerobic)
+PHENOLDEG-PWY	phenol degradation II (anaerobic)
+PWY-6690	cinnamate and 3-hydroxycinnamate degradation to 2-oxopent-4-enoate
+PWY-6080	4-ethylphenol degradation (anaerobic)
+HCAMHPDEG-PWY	3-phenylpropionate and 3-(3-hydroxyphenyl)propionate degradation to 2-oxopent-4-enoate
+PWY-5648	2-nitrobenzoate degradation II
+PWY-2381	4-nitrobenzoate degradation
+PWY-5645	4-chloronitrobenzene degradation
+PWY-5640	nitrobenzene degradation II
+PWY-5637	nitrobenzene degradation I
+PWY-5644	4-nitrotoluene degradation II
+P421-PWY	4-nitrotoluene degradation I
+PWY-5641	2-nitrotoluene degradation
+PWY-5643	2,6-dinitrotoluene degradation
+PWY-5642	2,4-dinitrotoluene degradation
+PWY-5488	4-nitrophenol degradation II
+PWY-5487	4-nitrophenol degradation I
+PWY-5636	2-nitrophenol degradation
+PWY-6051	2,4,6-trinitrotoluene degradation
+PWY-722	nicotinate degradation I
+PWY-5055	nicotinate degradation III
+PWY-5033	nicotinate degradation II
+PWY-1501	mandelate degradation I
+P3-PWY	gallate degradation III (anaerobic)
+GALLATE-DEGRADATION-II-PWY	gallate degradation I
+GALLATE-DEGRADATION-I-PWY	gallate degradation II
+PWY-1381	fluorene degradation II
+FLUORENE-DEG-9-ONE-PWY	fluorene degradation I
+PWY-6192	3,4-dichlorotoluene degradation
+PWY-6191	2,5-dichlorotoluene degradation
+PWY-6190	2,4-dichlorotoluene degradation
+PWY-6104	3-chlorotoluene degradation II
+PWY-6103	3-chlorotoluene degradation I
+PWY-6214	3-chlorocatechol degradation III (meta pathway)
+PWY-6193	3-chlorocatechol degradation II (ortho)
+PWY-6089	3-chlorocatechol degradation I (ortho)
+PWY-6094	3,4,6-trichlorocatechol degradation
+PWY-6093	3,4-dichlorocatechol degradation
+PWY-6087	4-chlorocatechol degradation
+PWY-6084	3,5-dichlorocatechol degradation
+PWY-6228	3-chlorobenzoate degradation III (via gentisate)
+PWY-6216	3-chlorobenzoate degradation II (via protocatechuate)
+PWY-6088	3-chlorobenzoate degradation I (via chlorocatechol)
+PWY-6221	2-chlorobenzoate degradation
+PWY-6217	3,4-dichlorobenzoate degradation
+PWY-6215	4-chlorobenzoate degradation
+PWY-6099	1,2,4,5-tetrachlorobenzene degradation
+PWY-6091	1,2,4-trichlorobenzene degradation
+PWY-6090	1,2-dichlorobenzene degradation
+PWY-6083	chlorobenzene degradation
+PWY-6081	1,3-dichlorobenzene degradation
+14DICHLORBENZDEG-PWY	1,4-dichlorobenzene degradation
+PWY-6200	2,4,5-trichlorophenoxyacetate degradation
+PWY-6197	chlorinated phenols degradation
+PWY-6178	2,4,6-trichlorophenol degradation
+PWY-6107	chlorosalicylate degradation
+PWY-6102	5-chloro-3-methyl-catechol degradation
+PWY-6086	4-chloro-2-methylphenoxyacetate degradation
+PWY-6085	2,4-dichlorophenoxyacetate  degradation
+PWY-5419	catechol degradation to 2-oxopent-4-enoate II
+P183-PWY	catechol degradation to 2-oxopent-4-enoate I
+CATECHOL-ORTHO-CLEAVAGE-PWY	catechol degradation to beta-ketoadipate
+PWY-1361	benzoyl-CoA degradation I (aerobic)
+P321-PWY	benzoyl-CoA degradation III (anaerobic)
+CENTBENZCOA-PWY	benzoyl-CoA degradation II (anaerobic)
+PWY-283	benzoate degradation II (aerobic and anaerobic)
+PWY-2503	benzoate degradation I (aerobic)
+PWY-6504	anthranilate degradation IV (aerobic)
+PWY-6079	anthranilate degradation I (aerobic)
+PWY-6077	anthranilate degradation II (aerobic)
+2AMINOBENZDEG-PWY	anthranilate degradation III (anaerobic)
+PWY5F9-3233	phthalate degradation
+PWY5F9-12	biphenyl degradation
+PWY-741	p-cymene degradation to p-cumate
+PWY-721	3-methylquinoline degradation
+PWY-6941	styrene degradation
+PWY-681	dibenzothiophene desulfurization
+PWY-6781	chlorogenic acid degradation
+PWY-6550	carbazole degradation
+PWY-6533	aniline degradation
+PWY-6532	diphenylamine degradation
+PWY-6343	ferulate degradation
+PWY-6340	5,5-dehydrodivanillate degradation
+PWY-6223	gentisate degradation
+PWY-6210	2-aminophenol degradation
+PWY-6185	4-methylcatechol degradation (ortho cleavage)
+PWY-6184	methylsalicylate degradation
+PWY-5490	paraoxon degradation
+PWY-5489	methyl parathion degradation
+PWY-5450	benzene degradation
+PWY-5427	naphthalene degradation
+PWY-5169	cyanurate degradation
+PWY-5163	p-cumate degradation to 2-oxopent-4-enoate
+PWY-481	ethylbenzene degradation (anaerobic)
+PWY-2421	indole-3-acetate degradation to anthranilate
+PWY-142	m-xylene degradation (anaerobic)
+PARATHION-DEGRADATION-PWY	parathion degradation
+P662-PWY	dibenzofuran degradation
+P661-PWY	dibenzo-p-dioxin degradation
+P345-PWY	aldoxime degradation
+P343-PWY	resorcinol degradation
+P342-PWY	orcinol degradation
+METHYLGALLATE-DEGRADATION-PWY	methylgallate degradation
+M-CRESOL-DEGRADATION-PWY	m-cresol degradation
+4TOLCARBDEG-PWY	4-toluenecarboxylate degradation
+4-HYDROXYMANDELATE-DEGRADATION-PWY	4-hydroxymandelate degradation
+3-HYDROXYPHENYLACETATE-DEGRADATION-PWY	4-hydroxyphenylacetate degradation
+2ASDEG-PWY	orthanilate degradation
+PWY-5704	urea degradation II
+PWY-5703	urea degradation I
+PWY-6441	spermine and spermidine degradation III
+PWY-6440	spermine and spermidine degradation II
+PWY-6117	spermine and spermidine degradation I
+PWY0-1221	putrescine degradation II
+PWY-3	putrescine degradation V
+PWY-2	putrescine degradation IV
+PWY-0	putrescine degradation III
+PUTDEG-PWY	putrescine degradation I
+GLUAMCAT-PWY	N-acetylglucosamine degradation I
+PWY-6967	methylamine degradation I
+PWY-6965	methylamine degradation II
+PWY-4741	creatinine degradation III
+PWY-4722	creatinine degradation II
+CRNFORCAT-PWY	creatinine degradation I
+PWY-3721	choline degradation II
+PWY-3641	carnitine degradation III
+PWY-3602	carnitine degradation II
+CARNMET-PWY	carnitine degradation I
+PWY-5698	allantoin degradation to ureidoglycolate II (ammonia producing)
+PWY-5697	allantoin degradation to ureidoglycolate I (urea producing)
+PWY-6537	4-aminobutyrate degradation II
+PWY-6536	4-aminobutyrate degradation III
+PWY-6535	4-aminobutyrate degradation I
+PWY-6473	4-aminobutyrate degradation IV
+PWY-5022	4-aminobutyrate degradation V
+PWY6666-2	dopamine degradation
+PWY0-1477	ethanolamine utilization
+PWY-6534	phenylethylamine degradation II
+PWY-6181	histamine degradation
+PWY-5736	isopropylamine degradation
+PWY-3661	glycine betaine degradation
+P561-PWY	stachydrine degradation
+2PHENDEG-PWY	phenylethylamine degradation I
+PWY0-1324	N-acetylneuraminate and N-acetylmannosamine degradation
+PWY-6968	trimethylamine degradation
+PWY-6814	acidification and chitin degradation (in carnivorous plants)
+PWY-761	rhizobactin 1021 biosynthesis
+PWY-6574	achromobactin biosynthesis
+PWY-6409	pyoverdine I biosynthesis
+PWY-6408	pyochelin biosynthesis
+PWY-6407	yersiniabactin biosynthesis
+PWY-6381	bisucaberin biosynthesis
+PWY-6379	alcaligin biosynthesis
+PWY-6378	putrebactin biosynthesis
+PWY-6376	desferrioxamine B biosynthesis
+PWY-6375	desferrioxamine E biosynthesis
+PWY-6289	petrobactin biosynthesis
+PWY-5925	hydroxylated mugineic acid phytosiderophore biosynthesis
+PWY-5912	2-deoxymugineic acid phytosiderophore biosynthesis
+AEROBACTINSYN-PWY	aerobactin biosynthesis
+PWY-5002	tetrahydroxyxanthone biosynthesis (from 3-hydroxybenzoate)
+PWY-5001	tetrahydroxyxanthone biosynthesis (from benzoate)
+PWY-6115	avenacin biosynthesis
+PWY-6109	mangrove triterpenoid biosynthesis
+PWY-6105	C30 botryococcene biosynthesis
+PWY-6098	diploterol and cycloartenol biosynthesis
+PWY-6095	dammara-20,24-diene biosynthesis
+PWY-6008	baruol biosynthesis
+PWY-6007	arabidiol biosynthesis
+PWY-6005	marneral biosynthesis
+PWY-5992	thalianol and derivatives biosynthesis
+PWY-5774	saponin biosynthesis IV
+PWY-5759	saponin biosynthesis III
+PWY-5756	saponin biosynthesis II
+PWY-5672	ginsenoside biosynthesis
+PWY-5377	alpha-amyrin biosynthesis
+PWY-5203	soybean saponin I biosynthesis
+PWY-112	lupeol biosynthesis
+PWY-6681	neurosporaxanthin biosynthesis
+PWY-5398	crocetin esters biosynthesis
+PWY-5397	crocetin biosynthesis
+PWY-5305	bixin biosynthesis
+PWY-6244	bergamotene biosynthesis II
+PWY-6243	bergamotene biosynthesis I
+PWY-6836	santalene biosynthesis II
+PWY-6669	delta-guaiene biosynthesis
+PWY-6540	costunolide biosynthesis
+PWY-6294	selinene biosynthesis
+PWY-6291	valencene and 7-epi-alpha-selinene biosynthesis
+PWY-6290	beta-cubebene biosynthesis
+PWY-6278	botrydial biosynthesis
+PWY-6275	beta-caryophyllene biosynthesis
+PWY-6271	eudesmol biosynthesis
+PWY-6265	zerumbone biosynthesis
+PWY-6258	patchoulol biosynthesis
+PWY-6257	curcumene biosynthesis
+PWY-6254	santalene biosynthesis I
+PWY-6128	cis-calamenene related sesquiterpenoids biosynthesis
+PWY-5950	geosmin biosynthesis
+PWY-5773	gossypol biosynthesis
+PWY-5733	germacrene biosynthesis
+PWY-5725	farnesene biosynthesis
+PWY-5434	(3E)-4,8-dimethylnona-1,3,7-triene biosynthesis
+PWY-5425	oleoresin sesquiterpene volatiles biosynthesis
+PWY-5195	artemisinin biosynthesis
+PWY-5815	rubber biosynthesis
+PWY2OL-4	linalool biosynthesis
+PWY-6668	(E,E)-4,8,12-trimethyltrideca-1,3,7,11-tetraene biosynthesis
+PWY-6451	3-carene biosynthesis
+PWY-6449	fenchone biosynthesis
+PWY-6447	trichome monoterpenes biosynthesis
+PWY-6445	fenchol biosynthesis II
+PWY-6437	fenchol biosynthesis I
+PWY-6436	perillyl alcohol biosynthesis
+PWY-5928	(4R)-carvone biosynthesis
+PWY-5829	geraniol and geranial biosynthesis
+PWY-5813	bornyl diphosphate biosynthesis
+PWY-5423	oleoresin monoterpene volatiles biosynthesis
+PWY-3061	menthol biosynthesis
+PWY-3041	monoterpene biosynthesis
+PWY-6913	methylbutenol biosynthesis
+PWY-5422	isopimaric acid biosynthesis
+PWY-5421	dehydroabietic acid biosynthesis
+PWY-5414	palustric acid biosynthesis
+PWY-5413	neoabietic acid biosynthesis
+PWY-5412	levopimaric acid biosynthesis
+PWY-5411	abietic acid biosynthesis
+PWY-5063	phytyl diphosphate biosynthesis
+PWY-6691	plaunotol biosynthesis
+PWY-6659	fusicoccins biosynthesis
+PWY-6645	labdane-type diterpenes biosynthesis
+PWY-6304	casbene biosynthesis
+PWY-5660	taxol biosynthesis
+PWY-5107	phytol salvage pathway
+PWY-6475	trans-lycopene biosynthesis II (plants)
+PWY-6809	neoxanthin biosnythesis
+PWY-6581	spirilloxanthin and 2,2-diketo-spirilloxanthin biosynthesis
+PWY-6288	zeaxanthin-beta-D-diglucoside biosynthesis
+PWY-6287	neurosporene biosynthesis
+PWY-6286	spheroidene and spheroidenone biosynthesis
+PWY-6280	synechoxanthin biosynthesis
+PWY-6279	myxol-2 fucoside biosynthesis
+PWY-5947	lutein biosynthesis
+PWY-5946	delta-carotene biosynthesis
+PWY-5945	antheraxanthin and violaxanthin biosynthesis
+PWY-5944	zeaxanthin biosynthesis
+PWY-5943	beta-carotene biosynthesis
+PWY-5291	canthaxanthin biosynthesis
+PWY-5288	astaxanthin biosynthesis
+PWY-5175	lactucaxanthin biosynthesis
+PWY-5174	capsanthin and capsorubin biosynthesis
+PWY-6767	4,4-diapolycopenedioate biosynthesis
+PWY-5875	staphyloxanthin biosynthesis
+PWY-5828	lacinilene C biosynthesis
+PWY-5827	heliocides biosynthesis
+PWY-6295	olivetol biosynthesis
+PWY-5808	hyperforin biosynthesis
+PWY-5140	cannabinoid biosynthesis
+PWY-5133	cohumulone biosynthesis
+PWY-5132	humulone biosynthesis
+PWY-6372	1D-myo-inositol hexakisphosphate biosynthesis IV (Dictyostelium)
+PWY-4661	1D-myo-inositol hexakisphosphate biosynthesis III (Spirodela polyrrhiza)
+PWY-6554	1D-myo-inositol hexakisphosphate biosynthesis V (from Ins(1,3,4)P3)
+PWY-6362	1D-myo-inositol hexakisphosphate biosynthesis II (mammalian)
+PWY-6361	1D-myo-inositol hexakisphosphate biosynthesis I  (from Ins(1,4,5)P3)
+PWY-2301	myo-inositol biosynthesis
+PWY-6369	inositol pyrophosphates biosynthesis
+PWY-6366	D-myo-inositol (1,4,5,6)-tetrakisphosphate biosynthesis
+PWY-6365	D-myo-inositol (3,4,5,6)-tetrakisphosphate biosynthesis
+PWY-6364	D-myo-inositol (1,3,4)-trisphosphate biosynthesis
+PWY-6363	D-myo-inositol (1,4,5)-trisphosphate degradation
+PWY-6351	D-myo-inositol (1,4,5)-trisphosphate biosynthesis
+PWY-5338	galactosylcyclitol biosynthesis
+PWY-5978	kanosamine biosynthesis
+PWY-5380	A series fagopyritols biosynthesis
+PWY-5379	B series fagopyritols biosynthesis
+PWY-6627	salinosporamide A biosynthesis
+PWY-6438	phenylphenalenone biosynthesis
+PWY-6316	aromatic polyketides biosynthesis
+PWY-6314	plumbagin biosynthesis
+PWY-6312	barbaloin biosynthesis
+PWY-6310	aloesone biosynthesis II
+PWY-5810	usnate biosynthesis
+PWY-5393	raspberry ketone biosynthesis
+PWY-4801	aloesone biosynthesis I
+PWY-12	pentaketide chromone biosynthesis
+PWY-6888	zealexin biosynthesis
+PWY-2961	sesquiterpenoid phytoalexins biosynthesis
+PWY-2921	capsidiol biosynthesis
+PWY-2981	diterpene phytoalexins precursors biosynthesis
+CAMALEXIN-SYN	camalexin biosynthesis
+PWY-6418	4-hydroxycoumarin biosynthesis
+PWY-5477	gallotannin biosynthesis
+PWY-5476	cornusiin E biosynthesis
+PWY-5475	pentagalloylglucose biosynthesis
+PWY-84	resveratrol biosynthesis
+PWY-6939	tetrahydroxystilbenes biosynthesis
+PWY-6665	pterostilbene biosynthesis
+PWY-5045	pinosylvin metabolism
+PWY-5987	sorgoleone biosynthesis
+PWY-5802	alizarin biosynthesis
+PWY-5801	lawsone biosynthesis
+PWY-5795	juglone biosynthesis
+PWY-5780	hypericin biosynthesis
+PWY-5701	shikonin biosynthesis
+PWY-5371	chrysophanol biosynthesis
+PWY-116	coniferin metabolism
+PWY-83	monolignol glucosides biosynthesis
+PWY-6302	dihydroconiferyl alcohol biosynthesis
+PWY-6824	justicidin B biosynthesis
+PWY-6820	diphyllin biosynthesis
+PWY-5479	podophyllotoxin and 6-methoxypodophyllotoxin biosynthesis
+PWY-5469	sesamin biosynthesis
+PWY-5466	matairesinol biosynthesis
+PWY-641	proanthocyanidin biosynthesis from flavanols
+PWY-6914	sophoraflavanone G biosynthesis
+PWY-5135	xanthohumol biosynthesis
+PWY1F-823	leucopelargonidin and leucocyanidin biosynthesis
+PWY-5152	leucodelphinidin biosynthesis
+PWY-6427	rot-2-enonate biosynthesis
+PWY-6425	rotenoid biosynthesis II
+PWY-5775	rotenoid biosynthesis I
+PWY-6332	coumestrol biosynthesis
+PWY-5825	dalpatein and dalnigrein biosynthesis
+PWY-5821	dalcochinin biosynthesis
+PWY-5729	vestitol and sativan biosynthesis
+PWY-5061	6,7,4-trihydroxyisoflavone biosynthesis
+PWY-4681	kievitone biosynthesis
+PWY-4502	wighteone and luteone biosynthesis
+PWY-3042	phaseollin biosynthesis
+PWY-2762	glyceollin biosynthesis II
+PWY-2761	glyceollin biosynthesis I
+PWY-2467	pisatin biosynthesis
+PWY-2464	maackiain biosynthesis
+PWY-2463	medicarpin biosynthesis
+PWY-2321	formononetin biosynthesis
+PWY-2083	isoflavonoid biosynthesis II
+PWY-2002	isoflavonoid biosynthesis I
+PWY-6631	O -methylation of tricetin
+PWY-6360	flavonol glucosylation I
+PWY-6199	quercetinsulphates biosynthesis
+PWY-6064	methylquercetin biosynthesis
+PWY-6035	2,3-cis-flavanols biosynthesis
+PWY-5391	syringetin biosynthesis
+PWY-5390	rutin biosynthesis
+PWY-5363	chrysin biosynthesis
+PWY-5348	kaempferol triglucoside biosynthesis
+PWY-5321	quercetin glucoside biosynthesis (Arabidopsis)
+PWY-5320	kaempferol glucoside biosynthesis (Arabidopsis)
+PWY-5059	pinobanksin biosynthesis
+PWY-3101	flavonol biosynthesis
+PWY-6239	luteolin glycosides biosynthesis
+PWY-6024	isovitexin and isovitexin glycosides biosynthesis
+PWY-6015	vitexin and detivatives biosynthesis
+PWY-6010	apigenin glycosides biosynthesis
+PWY-5793	maysin biosynthesis
+PWY-5119	acacetin biosynthesis
+PWY-5060	luteolin biosynthesis
+PWY-6602	C-glycosylflavone biosynthesis
+PWY-5118	ponciretin biosynthesis
+PWY-5116	sakuranetin biosynthesis
+PWY-5105	hesperitin glycoside biosynthesis
+PWY-5094	naringenin glycoside biosynthesis
+PWY-6325	echinatin biosynthesis
+PWY-5339	chalcone 2-O-glucoside biosynthesis
+PWY-5161	6-deoxychalcone metabolism
+PWY-6401	hispidol biosynthesis
+PWY-1901	aurone biosynthesis
+PWY-5307	gentiodelphin biosynthesis
+PWY-5295	ternatin C5 biosynthesis
+PWY-5286	anthocyanidin sophoroside metabolism
+PWY-5284	shisonin biosynthesis
+PWY-5268	salvianin biosynthesis
+PWY-5160	rose anthocyanin biosynthesis
+PWY-5153	anthocyanin biosynthesis (delphinidin 3-O-glucoside)
+PWY-5139	pelargonidin conjugates biosynthesis
+PWY-5125	anthocyanin biosynthesis (pelargonidin 3-O-glucoside, cyanidin 3-O-glucoside)
+PWY1F-FLAVSYN	flavonoid biosynthesis
+PWY-6787	flavonoid biosynthesis (in equisetum)
+PWY-6515	phloridzin biosynthesis
+PWY-6232	chrysoeriol biosynthesis
+PWY-6029	2,3-trans-flavanols biosynthesis
+PWY-5319	coumarin metabolism (to melilotic acid)
+PWY-4922	6-methoxymellein biosynthesis
+PWY-6792	scopoletin biosynthesis
+PWY-5365	linear furanocoumarin biosynthesis
+PWY-5349	esculetin biosynthesis
+PWY-5176	coumarin biosynthesis (via 2-coumarate)
+PWY1F-467	phenylpropanoid biosynthesis, initial reactions
+PWY-6040	chlorogenic acid biosynthesis II
+PWY-6039	chlorogenic acid biosynthesis I
+PWY-5968	cinnamate esters biosynthesis
+PWY-5867	t-anethole biosynthesis
+PWY-5859	eugenol and isoeugenol biosynthesis
+PWY-5168	ferulate and sinapate biosynthesis
+PWY-5049	rosmarinic acid biosynthesis II
+PWY-5048	rosmarinic acid biosynthesis I
+PWY-4421	curcumin glucoside biosynthesis
+PWY-4201	volatile cinnamoic ester biosynthesis
+PWY-3301	sinapate ester biosynthesis
+PWY-2181	free phenylpropanoid acid biosynthesis
+PWY-4203	volatile benzenoid biosynthesis I (ester formation)
+PWY-6766	salicin biosynthesis
+PWY-6763	salicortin biosynthesis
+PWY-6444	benzoate biosynthesis II (CoA-independent, non-beta-oxidative)
+PWY-6835	6-gingerol biosynthesis
+PWY-6801	volatile esters biosynthesis (during fruit ripening)
+PWY-6673	caffeoylglucarate biosynthesis
+PWY-5882	epoxypseudoisoeugenol-2-methylbutyrate biosynthesis
+PWY-5665	vanilla biosynthesis
+PWY-5021	willardiine and isowillardiine biosynthesis
+PWY-5	canavanine biosynthesis
+PWY-4985	mimosine biosynthesis
+PWY-4961	beta-pyrazole-1-ylalanine biosynthesis
+PWY-1	lathyrine biosynthesis
+PWYQT-4475	glucosinolate biosynthesis from hexahomomethionine
+PWYQT-4474	glucosinolate biosynthesis from pentahomomethionine
+PWYQT-4473	glucosinolate biosynthesis from tetrahomomethionine
+PWYQT-4472	glucosinolate biosynthesis from trihomomethionine
+PWYQT-4471	glucosinolate biosynthesis from dihomomethionine
+PWYQT-4450	aliphatic glucosinolate biosynthesis, side chain elongation cycle
+PWY-601	glucosinolate biosynthesis from tryptophan
+PWY-2821	glucosinolate biosynthesis from phenylalanine
+PWY-1187	glucosinolate biosynthesis from homomethionine
+PWY-861	dhurrin biosynthesis
+PWY-5990	lotaustralin biosynthesis
+PWY-3022	linamarin biosynthesis
+PWY-5388	N-glucosylnicotinate metabolism
+PWY-5846	colchicine biosynthesis
+PWY-5843	cocaine biosynthesis
+PWY-5318	calystegine biosynthesis
+PWY-5317	hyoscyamine and scopolamine biosynthesis
+PWY-5468	lupanine biosynthesis
+PWY-6326	camptothecin biosynthesis
+PWY-5848	cinchona alkaloids biosynthesis
+PWY-6852	senecionine N-oxide biosynthesis
+PWY-5752	piperine biosynthesis
+PWY-5316	nicotine biosynthesis
+PWY-5110	trigonelline biosynthesis
+PWY-5038	caffeine biosynthesis II (via paraxanthine)
+PWY-5037	caffeine biosynthesis I
+PWY-5040	theobromine biosynthesis II (via xanthine)
+PWY-5039	theobromine biosynthesis I
+PWY-6337	dehydroscoulerine biosynthesis
+PWY-6133	(S)-reticuline biosynthesis II
+PWY-5876	magnoflorine biosynthesis
+PWY-5472	bisbenzylisoquinoline alkaloid biosynthesis
+PWY-5471	laudanine biosynthesis
+PWY-5470	palmatine biosynthesis
+PWY-5287	sanguinarine and macarpine biosynthesis
+PWY-5270	morphine biosynthesis
+PWY-3901	berberine biosynthesis
+PWY-3581	(S)-reticuline biosynthesis I
+PWY-6495	ergotamine biosynthesis
+PWY-6493	agroclavine biosynthesis
+PWY-5877	beta-carboline biosynthesis
+PWY-5467	gramine biosynthesis
+PWY-5439	betacyanin biosynthesis (via dopamine)
+PWY-5426	betaxanthin biosynthesis
+PWY-5404	betaxanthin biosynthesis (via dopaxanthin)
+PWY-5403	betaxanthin biosynthesis (via dopamine)
+PWY-5400	amaranthin biosynthesis
+PWY-5399	betacyanin biosynthesis
+PWY-5394	betalamic acid biosynthesis
+PWY-5301	ajmaline and sarpagine biosynthesis
+PWY-5292	vindoline and vinblastine biosynthesis
+PWY-5290	secologanin and strictosidine biosynthesis
+PWY-6923	ricinine degradation
+PWY-6479	fumigaclavine C biosynthesis
+PWY-6027	capsiconiate biosynthesis
+PWY-5958	acridone alkaloid biosynthesis
+PWY-5883	ephedrine biosynthesis
+PWY-5748	gamma-coniciene and coniine biosynthesis
+PWY-5710	capsaicin biosynthesis
+PWY-5666	steroidal glycoalkaloid biosynthesis
+PWY-5315	N-methyl-Delta1-pyrrolinium cation biosynthesis
+PWY-6448	hordatine biosynthesis
+PWY-6442	spermidine hydroxycinnamic acid conjugates biosynthesis
+PWY-5474	hydroxycinnamic acid tyramine amides biosynthesis
+PWY-5473	hydroxycinnamic acid serotonin amides biosynthesis
+PWY-3181	tryptophan degradation VI (via tryptamine)
+PWY-5409	divinyl ether biosynthesis II
+PWY-5406	divinyl ether biosynthesis I
+PWY-5410	traumatin and (Z)-3-hexen-1-yl acetate biosynthesis
+PWY-5408	9-lipoxygenase and 9-hydroperoxide lyase pathway
+PWY-5407	9-lipoxygenase and 9-allene oxide synthase pathway
+PWY1A0-6325	actinorhodin biosynthesis
+PWY-6975	erythromycin biosynthesis
+PWY-6971	oleandomycin biosynthesis
+PWY-6955	lincomycin biosynthesis
+PWY-6919	neopentalenoketolactone and pentalenate biosynthesis
+PWY-6915	pentalenolactone biosynthesis
+PWY-6722	candicidin biosynthesis
+PWY-6721	sangivamycin biosynthesis
+PWY-6720	toyocamycin biosynthesis
+PWY-6682	dehydrophos biosynthesis
+PWY-6679	jadomycin biosynthesis
+PWY-6666	pyocyanin biosynthesis
+PWY-6511	3-methylarginine biosynthesis
+PWY-6346	staurosporine biosynthesis
+PWY-6345	K-252 biosynthesis
+PWY-6324	rebeccamycin biosynthesis
+PWY-6322	phosphinothricin tripeptide biosynthesis
+PWY-6003	gramicidin S biosynthesis
+PWY-5984	rifamycin B biosynthesis
+PWY-5940	streptomycin biosynthesis
+PWY-5930	terpentecin biosynthesis
+PWY-5929	puromycin biosynthesis
+PWY-5887	albaflavenone biosynthesis
+PWY-5818	validamycin A biosynthesis
+PWY-5776	2-hydroxyphenazine biosynthesis
+PWY-5770	phenazine-1-carboxylate biosynthesis
+PWY-5757	fosfomycin biosynthesis
+PWY-5737	(5R)-carbapenem biosynthesis
+PWY-5679	clavulanate biosynthesis
+PWY-5633	cephamycin C biosynthesis
+PWY-5632	cephalosporin C biosynthesis
+PWY-5631	deacetylcephalosporin C biosynthesis
+PWY-5630	penicillin K biosynthesis
+PWY-5629	isopenicillin N biosynthesis
+PWY-6950	DIMBOA-glucoside biosynthesis
+PWY-6949	DIBOA-glucoside biosynthesis
+PWY-6926	pyrethrin I biosynthesis
+PWY-6920	6-gingerol analog biosynthesis
+PWY-6839	2-aminoethylphosphonate biosynthesis
+PWY-6831	pyrrolnitrin biosynthesis
+PWY-6808	dTDP-D-forosamine biosynthesis
+PWY-6802	salidroside biosynthesis
+PWY-6703	preQ0 biosynthesis
+PWY-6699	oxalate biosynthesis
+PWY-6661	4-hydroxy-2(1H)-quinolone biosynthesis
+PWY-6660	2-heptyl-3-hydroxy-4(1H)-quinolone biosynthesis
+PWY-6644	fluoroacetate and fluorothreonine biosynthesis
+PWY-6585	methylketone biosynthesis
+PWY-6069	indigo biosynthesis
+PWY-6068	indican biosynthesis
+PWY-5979	3-amino-5-hydroxybenzoate biosynthesis
+PWY-5975	furaneol biosynthesis
+PWY-5960	aflatoxins B2 and G2 biosynthesis
+PWY-5959	aflatoxins B1 and G1 biosynthesis
+PWY-5956	sterigmatocystin biosynthesis
+PWY-5955	versicolorin B biosynthesis
+PWY-5954	(1S,5S)-averufin biosynthesis
+PWY-5935	tuberculosinol biosynthesis
+PWY-5826	hypoglycin biosynthesis
+PWY-5751	phenylethanol biosynthesis
+UDPNACETYLGALSYN-PWY	UDP-N-acetyl-D-glucosamine biosynthesis II
+PWY-6834	spermidine biosynthesis III
+PWY-6559	spermidine biosynthesis II
+BSUBPOLYAMSYN-PWY	spermidine biosynthesis I
+PWY-6305	putrescine biosynthesis IV
+PWY-46	putrescine biosynthesis III
+PWY-43	putrescine biosynthesis II
+PWY-40	putrescine biosynthesis I
+PWY1F-353	glycine betaine biosynthesis III (plants)
+PWY-6004	glycine betaine biosynthesis V (from glycine)
+PWY-3722	glycine betaine biosynthesis II (Gram-positive bacteria)
+P541-PWY	glycine betaine biosynthesis IV (from glycine)
+BETSYN-PWY	glycine betaine biosynthesis I (Gram-negative bacteria)
+PWY-4021	beta-alanine betaine biosynthesis
+CHOLINE-BETAINE-ANA-PWY	choline degradation I
+TRYPANOSYN-PWY	trypanothione biosynthesis
+PWY0-823	arginine degradation III (arginine decarboxylase/agmatinase pathway)
+PWY0-1303	aminopropylcadaverine biosynthesis
+PWY-6562	norspermidine biosynthesis
+PWY-6456	serinol biosynthesis
+PWY-6173	histamine biosynthesis
+PWY-5907	homospermidine biosynthesis
+PWY-5695	urate biosynthesis/inosine 5-phosphate degradation
+P101-PWY	ectoine biosynthesis
+GLYCGREAT-PWY	glycine degradation (creatine biosynthesis)
+ARGSPECAT-PWY	spermine biosynthesis
+PWY0-662	PRPP biosynthesis I
+PWY0-661	PRPP biosynthesis II
+PWY-5658	mannosylglycerate biosynthesis II
+PWY-5656	mannosylglycerate biosynthesis I
+PWY-6687	mannosylglucosylglycerate biosynthesis II
+PWY-6686	mannosylglucosylglycerate biosynthesis I
+PWY-6685	glucosylglycerate biosynthesis II
+PWY-5662	glucosylglycerate biosynthesis I
+PWY-6055	dimethylsulfoniopropionate biosynthesis II (Spartina)
+PWY-6054	dimethylsulfoniopropionate biosynthesis I (Wollastonia)
+PWY-6053	dimethylsulfoniopropionate biosynthesis III (algae)
+PWY-6664	di-myo-inositol phosphate biosynthesis
+PWY-6157	autoinducer AI-1 biosynthesis
+PWY-6154	autoinducer AI-2 biosynthesis II (Vibrio)
+PWY-6153	autoinducer AI-2 biosynthesis I
+PWY1-3	polyhydroxybutyrate biosynthesis
+PWY0-1534	hydrogen sulfide biosynthesis
+PWY-6936	seleno-amino acid biosynthesis
+PWY-6935	seleno-amino acid detoxification and volatilization II
+PWY-6931	seleno-amino acid detoxification and volatilization I
+PWY-6841	homophytochelatin biosynthesis
+PWY-6840	homoglutathione biosynthesis
+PWY-6745	phytochelatins biosynthesis
+PWY-6730	methylhalides biosynthesis (plants)
+PWY-6657	polyhydroxydecanoate biosynthesis
+PWY-6498	eumelanin biosynthesis
+PWY-6481	L-dopachrome biosynthesis
+PWY-5670	epoxysqualene biosynthesis
+PWY-5389	methylthiopropionate biosynthesis
+PWY-5109	2-methylbutyrate biosynthesis
+PWY-6933	seleno-amino acid detoxification and volatilization III
+PWY0-181	salvage pathways of pyrimidine deoxyribonucleotides
+PWY0-163	salvage pathways of pyrimidine ribonucleotides
+PWY-5686	uridine-5-phosphate biosynthesis
+PWY0-166	pyrimidine deoxyribonucleotides de novo biosynthesis I
+PWY-6545	pyrimidine deoxyribonucleotides de novo biosynthesis II
+PWY-5687	pyrimidine ribonucleotides interconversion
+PWY-6620	guanine and guanosine salvage I
+PWY-6618	guanine and guanosine salvage III
+PWY-6599	guanine and guanosine salvage II
+PWY-6619	adenine and adenosine salvage VI
+PWY-6611	adenine and adenosine salvage V
+PWY-6610	adenine and adenosine salvage IV
+PWY-6609	adenine and adenosine salvage III
+PWY-6605	adenine and adenosine salvage II
+P121-PWY	adenine and adenosine salvage I
+P1-PWY	purine and pyrimidine metabolism
+SALVPURINE2-PWY	xanthine and xanthosine salvage
+PWY-6124	inosine-5-phosphate biosynthesis II
+PWY-6123	inosine-5-phosphate biosynthesis I
+PWY-6126	adenosine nucleotides de novo biosynthesis
+PWY-6125	guanosine nucleotides de novo biosynthesis
+PWY-6829	tRNA methylation (yeast)
+PWY0-1479	tRNA processing pathway I
+PWY-6711	archaeosine biosynthesis
+PWY-6700	queuosine biosynthesis
+PWY-6689	tRNA splicing
+PWY-6122	5-aminoimidazole ribonucleotide biosynthesis II
+PWY-6121	5-aminoimidazole ribonucleotide biosynthesis I
+PWY-6794	adenosine 5-phosphoramidate biosynthesis
+PWY-6845	nitric oxide biosynthesis I (in plants)
+PWY-6405	Rapoport-Luebering glycolytic shunt
+PWY-6100	L-carnitine biosynthesis
+PPGPPMET-PWY	ppGpp biosynthesis
+PWY-6158	creatine-phosphate biosynthesis
+PWY-6424	sitosterol biosynthesis
+PWY-6132	lanosterol biosynthesis
+PWY-6075	ergosterol biosynthesis
+PWY-6074	zymosterol biosynthesis
+PWY-6061	bile acid biosynthesis, neutral pathway
+PWY-6036	cardenolide glucosides biosynthesis
+PWY-6032	cardenolide biosynthesis
+PWY-6580	L-1-phosphatidyl-inositol biosynthesis (Mycobacteria)
+PWY4FS-6	phosphatidylethanolamine biosynthesis II
+PWY-6273	phosphatidylethanolamine biosynthesis III
+PWY-5669	phosphatidylethanolamine biosynthesis I
+PWY4FS-4	phosphatidylcholine biosynthesis IV
+PWY4FS-3	phosphatidylcholine biosynthesis III
+PWY4FS-2	phosphatidylcholine biosynthesis II
+PWY3O-450	phosphatidylcholine biosynthesis I
+PWY-6826	phosphatidylcholine biosynthesis VI
+PWY-6825	phosphatidylcholine biosynthesis V
+PWY-5668	cardiolipin biosynthesis I
+PWY-5269	cardiolipin biosynthesis II
+PWY0-1319	CDP-diacylglycerol biosynthesis II
+PWY-5981	CDP-diacylglycerol biosynthesis III
+PWY-5667	CDP-diacylglycerol biosynthesis I
+PWY-762	phospholipid desaturation
+PWY-6367	D-myo-inositol-5-phosphate metabolism
+PWY-6352	3-phosphoinositide biosynthesis
+PWY-6349	CDP-archaeol biosynthesis
+PWY0-541	cyclopropane fatty acid (CFA) biosynthesis
+PWY-4942	cyclopropane and cyclopropene fatty acid biosynthesis
+PWY-5375	alpha-eleostearic acid biosynthesis
+PWY-5374	punicic acid biosynthesis
+PWY-5373	calendate biosynthesis
+PWY-5368	dimorphecolate biosynthesis
+PWY-6958	eicosapentaenoate biosynthesis
+PWY-5361	Delta5-eicosenoate biosynthesis
+PWY-5362	Delta6-hexadecenoate biosynthesis
+PWY-5367	petroselinate biosynthesis
+PWY-6013	crepenynic acid biosynthesis
+PWY-6014	vernolic acid biosynthesis
+PWY-6433	hydroxylated fatty acid biosynthesis (plants)
+PWY-6598	sciadonic acid biosynthesis
+PWY-6603	dicranin biosynthesis
+PWY-5353	arachidonate biosynthesis
+PWY-5989	stearate biosynthesis II (plants)
+PWY-5972	stearate biosynthesis I (animals)
+PWY-6282	palmitoleate biosynthesis I
+PWY-5366	palmitoleate biosynthesis II
+PWY-5994	palmitate biosynthesis I (animals)
+PWY-5971	palmitate biosynthesis II (bacteria and plants)
+PWY-6429	ricinoleate biosynthesis
+PWY-5996	oleate biosynthesis II (animals)
+PWY-5147	oleate biosynthesis I (plants)
+PWY-6001	linoleate biosynthesis II (animals)
+PWY-5995	linoleate biosynthesis I (plants)
+PWY-6000	gamma-linolenate biosynthesis II (animals)
+PWY-5998	gamma-linolenate biosynthesis I (plants)
+PWYG-321	mycolate biosynthesis
+PWY0-862	cis-dodecenoyl biosynthesis
+PWY-6917	epoxy fatty acid biosynthesis
+PWY-6799	fatty acid biosynthesis (plant mitochondria)
+PWY-6710	poly-hydroxy fatty acids biosynthesis
+PWY-6468	omega- hydroxylation of laurate
+PWY-6465	omega-hydroxylation of caprate and laurate
+PWY-5997	alpha-linolenate biosynthesis
+PWY-5973	cis-vaccenate biosynthesis
+PWY-5970	fatty acids biosynthesis (yeast)
+PWY-5966	fatty acid biosynthesis initiation II
+PWY-5965	fatty acid biosynthesis initiation III
+PWY-5080	very long chain fatty acid biosynthesis
+PWY-4381	fatty acid biosynthesis initiation I
+FASYN-ELONG-PWY	fatty acid elongation -- saturated
+PWY-3561	choline biosynthesis III
+PWY-3542	choline biosynthesis II
+PWY-3385	choline biosynthesis I
+TRIGLSYN-PWY	triacylglycerol biosynthesis
+SPHINGOLIPID-SYN-PWY	sphingolipid metabolism
+SOPHOROSYLOXYDOCOSANOATE-SYN-PWY	sophorosyloxydocosanoate biosynthesis
+PWYQT-4427	sulfolipid biosynthesis
+PWY3DJ-12	ceramide biosynthesis
+PWY3DJ-11281	sphingomyelin metabolism
+PWY0-1264	biotin-carboxyl carrier protein assembly
+PWY-782	glycolipid desaturation
+PWY-6818	ornithine lipid biosynthesis
+PWY-6804	diacylglycerol biosynthesis (PUFA enrichment in oilseed)
+PWY-6803	phosphatidylcholine acyl editing
+PWY-6453	stigma estolide biosynthesis
+PWY-6129	dolichol and dolichyl phosphate biosynthesis
+PWY-5885	wax esters biosynthesis II
+PWY-5884	wax esters biosynthesis I
+PWY-5148	acyl-CoA hydrolysis
+PWY-5142	acyl-ACP thioesterase pathway
+PWY-5129	sphingolipid biosynthesis (plants)
+PWY-401	glycolipid biosynthesis
+LIPA-CORESYN-PWY	Lipid A-core biosynthesis
+KDO-LIPASYN-PWY	(KDO)2-lipid A biosynthesis I
+PWY-6795	diacylglyceryl-N,N,N-trimethylhomoserine biosynthesis
+PWY-6648	rhamnolipid biosynthesis
+PWY-735	jasmonic acid biosynthesis
+PWY-6297	tuberonate glucoside biosynthesis
+PWY-6235	hydroxyjasmonate sulfate biosynthesis
+PWY-6233	jasmonoyl-amino acid conjugates biosynthesis II
+PWY-6220	jasmonoyl-amino acid conjugates biosynthesis I
+PWY-6854	ethylene biosynthesis III (microbes)
+PWY-6853	ethylene biosynthesis II (microbes)
+ETHYL-PWY	ethylene biosynthesis I (plants)
+PWY-5967	lupinate biosynthesis
+PWY-2902	cytokinins-O-glucoside biosynthesis
+PWY-2901	cytokinins 9-N-glucoside biosynthesis
+PWY-2881	cytokinins 7-N-glucoside biosynthesis
+PWY-2781	cis-zeatin biosynthesis
+PWY-2681	trans-zeatin biosynthesis
+PWY-699	brassinosteroid biosynthesis I
+PWY-2582	brassinosteroid biosynthesis II
+TRPIAACAT-PWY	tryptophan degradation VII (via indole-3-pyruvate)
+PWY-6219	indole-3-acetyl-amino acid biosynthesis
+PWY-581	IAA biosynthesis I
+PWY-5026	IAA biosynthesis V
+PWY-5025	IAA biosynthesis IV
+PWY-3161	IAA biosynthesis VI (via indole-3-acetamide)
+PWY-1921	IAA biosynthesis III
+PWY-1822	IAA biosynthesis II
+PWY-1741	IAA conjugate biosynthesis I
+PWY-5271	phaseic acid biosynthesis
+PWY-695	abscisic acid biosynthesis
+PWY-6299	aldehyde oxidation I
+PWY-6653	ent -kaurene biosynthesis II
+PWY-5070	gibberellin biosynthesis I (non C-3, non C-13 hydroxylation)
+PWY-5047	gibberellin biosynthesis IV (Gibberella fujikuroi)
+PWY-5036	gibberellin biosynthesis II (early C-3 hydroxylation)
+PWY-5035	gibberellin biosynthesis III (early C-13 hydroxylation)
+PWY-5034	GA12 biosynthesis
+PWY-5032	ent-kaurene biosynthesis I
+PWY66-380	estrogen biosynthesis
+PWY66-378	androgen biosynthesis
+PWY66-377	pregnenolone biosynthesis
+PWY66-375	leukotriene biosynthesis
+PWY66-301	catecholamine biosynthesis
+PWY-6650	juvenile hormone III biosynthesis II
+PWY-6575	juvenile hormone III biosynthesis I
+PWY-6241	thyroid hormone biosynthesis
+PWY-6030	serotonin and melatonin biosynthesis
+PYRIDOXSYN-PWY	pyridoxal 5-phosphate biosynthesis I
+PWY-6466	pyridoxal 5-phosphate biosynthesis II
+PLPSAL-PWY	pyridoxal 5-phosphate salvage pathway
+PWY-6875	retinoate biosynthesis II
+PWY-6872	retinoate biosynthesis I
+PWY-6861	the visual cycle
+PWY-6857	retinol biosynthesis
+PWY-6910	hydroxymethylpyrimidine salvage
+PWY-6899	base-degraded thiamin salvage
+PWY-6898	thiamin salvage III
+PWY-6896	thiamin salvage I
+PWY-6909	thiazole biosynthesis III (eukaryotes)
+PWY-6908	thiamin diphosphate biosynthesis IV (eukaryotes)
+PWY-6907	thiamin diphosphate biosynthesis III (Staphylococcus)
+PWY-6894	thiamin diphosphate biosynthesis I (E. coli)
+PWY-6893	thiamin diphosphate biosynthesis II (Bacillus)
+PWY-6892	thiazole biosynthesis I (E. coli)
+PWY-6890	4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis
+PWY-6891	thiazole biosynthesis II (Bacillus)
+PWY-6654	phosphopantothenate biosynthesis III
+PWY-3961	phosphopantothenate biosynthesis II
+PANTO-PWY	phosphopantothenate biosynthesis I
+PWY-6797	6-hydroxymethyl-dihydropterin diphosphate biosynthesis II (archaea)
+PWY-6147	6-hydroxymethyl-dihydropterin diphosphate biosynthesis I
+PWY-6614	tetrahydrofolate biosynthesis
+PWY-6613	tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate
+PWY-6543	p-aminobenzoate biosynthesis
+PWY-3841	folate transformations II
+PWY-2201	folate transformations I
+PWY-2161B	glutamate removal from folates
+PWY-2161	folate polyglutamylation
+1CMET2-PWY	formylTHF biosynthesis I
+RIBOSYN2-PWY	flavin biosynthesis I (bacteria and plants)
+PWY66-366	flavin biosynthesis IV (mammalian)
+PWY-6168	flavin biosynthesis III (fungi)
+PWY-6167	flavin biosynthesis II (archaea)
+PWY-6269	adenosylcobalamin salvage from cobinamide II
+PWY-6268	adenosylcobalamin salvage from cobalamin
+COBALSYN-PWY	adenosylcobalamin salvage from cobinamide I
+PWY-5523	5,6-dimethylbenzimidazole biosynthesis
+PWY-5509	adenosylcobalamin biosynthesis from cobyrinate a,c-diamide I
+PWY-5508	adenosylcobalamin biosynthesis from cobyrinate a,c-diamide II
+PWY-5443	aminopropanol phosphate biosynthesis
+PWY-6578	7-keto-8-aminopelargonate biosynthesis II
+PWY-6519	7-keto-8-aminopelargonate biosynthesis I
+PWY0-1507	biotin biosynthesis from 7-keto-8-aminopelargonate
+PWY4FS-13	extended VTC2 cycle
+PWY4FS-12	VTC2 cycle
+PWY4FS-11	ascorbate biosynthesis II (L-gulose pathway)
+PWY3DJ-35471	L-ascorbate biosynthesis VI
+PWY-882	ascorbate biosynthesis I (L-galactose pathway)
+PWY-6415	ascorbate biosynthesis VII
+PWY-5521	L-ascorbate biosynthesis V
+PWY-6076	1,25-dihydroxyvitamin D3 biosynthesis
+PWY-5189	tetrapyrrole biosynthesis II
+PWY-5188	tetrapyrrole biosynthesis I
+PWY-5664	tetrahydrobiopterin biosynthesis II
+PWY-5663	tetrahydrobiopterin biosynthesis I
+PWY-4121	glutathionylspermidine biosynthesis
+THIOREDOX-PWY	thioredoxin pathway
+PWY8J2-1	bacillithiol biosynthesis
+PWY1G-126	mycothiol oxidation
+PWY1G-0	mycothiol biosynthesis
+PWY-4181	glutathione amide metabolism
+PWY-4081	glutathione redox reactions I
+GLUTATHIONESYN-PWY	glutathione biosynthesis
+GLUT-REDOX-PWY	glutathione redox reactions II
+PWY3O-19	ubiquinol-6 biosynthesis (eukaryotic)
+PWY-6708	ubiquinol-8 biosynthesis (prokaryotic)
+PWY-5873	ubiquinol-7 biosynthesis (eukaryotic)
+PWY-5872	ubiquinol-10 biosynthesis (eukaryotic)
+PWY-5871	ubiquinol-9 biosynthesis (eukaryotic)
+PWY-5870	ubiquinol-8 biosynthesis (eukaryotic)
+PWY-5857	ubiquinol-10 biosynthesis (prokaryotic)
+PWY-5856	ubiquinol-9 biosynthesis (prokaryotic)
+PWY-5855	ubiquinol-7 biosynthesis (prokaryotic)
+PWY-5889	rhodoquinone-9 biosynthesis
+PWY-5888	rhodoquinone-10 biosynthesis
+PWY-6978	plastoquinol-9 biosynthesis II
+PWY-1581	plastoquinol-9 biosynthesis I
+PWY-5027	phylloquinol biosynthesis
+PWY-5895	menaquinol-13 biosynthesis
+PWY-5892	menaquinol-12 biosynthesis
+PWY-5891	menaquinol-11 biosynthesis
+PWY-5890	menaquinol-10 biosynthesis
+PWY-5849	menaquinol-6 biosynthesis
+PWY-5844	menaquinol-9 biosynthesis
+PWY-5839	menaquinol-7 biosynthesis
+MENAQUINONESYN-PWY	menaquinol-8 biosynthesis
+PWY-6793	demethylmenaquinol-8 biosynthesis III
+PWY-6262	demethylmenaquinol-8 biosynthesis II
+PWY-5852	demethylmenaquinol-8 biosynthesis I
+PWY-5853	demethylmenaquinol-6 biosynthesis
+PWY-5851	demethylmenaquinol-9 biosynthesis
+PWY-5837	1,4-dihydroxy-2-naphthoate biosynthesis I
+PWY-5791	1,4-dihydroxy-2-naphthoate biosynthesis II (plants)
+PWY-1422	vitamin E biosynthesis
+HEMESYN2-PWY	heme biosynthesis from uroporphyrinogen-III II
+HEME-BIOSYNTHESIS-II	heme biosynthesis from uroporphyrinogen-III I
+PWY-5531	chlorophyllide a biosynthesis II
+CHLOROPHYLL-SYN	chlorophyllide a biosynthesis I
+PWY-5086	chlorophyll a biosynthesis I
+PWY-5068	chlorophyll cycle
+PWY-5064	chlorophyll a biosynthesis II
+PWY-5526	bacteriochlorophyll a biosynthesis
+PWY-5297	siroheme amide biosynthesis
+PWY-5194	siroheme biosynthesis
+PWY-5120	geranylgeranyldiphosphate biosynthesis
+PWY-5123	trans, trans-farnesyl diphosphate biosynthesis
+PWY-6577	farnesylcysteine salvage pathway
+PWY-6520	nonaprenyl diphosphate biosynthesis II
+PWY-6383	mono-trans, poly-cis decaprenyl phosphate biosynthesis
+PWY-5893	tridecaprenyl diphosphate biosynthesis
+PWY-5817	dodecaprenyl diphosphate biosynthesis
+PWY-5816	all trans undecaprenyl diphosphate biosynthesis
+PWY-5807	heptaprenyl diphosphate biosynthesis
+PWY-5806	all-trans-decaprenyl diphosphate biosynthesis
+PWY-5805	nonaprenyl diphosphate biosynthesis I
+PWY-5785	di-trans,poly-cis-undecaprenyl phosphate biosynthesis
+PWY-5783	octaprenyl diphosphate biosynthesis
+PWY-5122	geranyl diphosphate biosynthesis
+NONMEVIPP-PWY	methylerythritol phosphate pathway
+HEXPPSYN-PWY	hexaprenyl diphosphate biosynthesis
+PYRIDNUCSYN-PWY	NAD biosynthesis I (from aspartate)
+PYRIDNUCSAL-PWY	NAD salvage pathway I
+PWY3O-4106	NAD salvage pathway III
+PWY-5653	NAD biosynthesis from 2-amino-3-carboxymuconate semialdehyde
+NAD-BIOSYNTHESIS-III	NAD biosynthesis III
+PWY-5381	pyridine nucleotide cycling (plants)
+PWY-5083	NAD/NADH phosphorylation and dephosphorylation
+NADPHOS-DEPHOS-PWY	NAD phosphorylation and dephosphorylation
+PWY-6823	molybdenum cofactor biosynthesis
+PWY0-522	lipoate salvage and modification
+PWY0-501	lipoate biosynthesis and incorporation I
+PWY0-1275	lipoate biosynthesis and incorporation II
+PWY-6643	coenzyme M biosynthesis II
+P261-PWY	coenzyme M biosynthesis I
+PWY-5796	2-(5-phosphoribosyl)-3-dephospho-CoA biosynthesis II (malonate decarboxylase)
+P2-PWY	2-(5-phosphoribosyl)-3-dephospho-CoA biosynthesis I (citrate lyase)
+COA-PWY	coenzyme A biosynthesis
+SAM-PWY	S-adenosyl-L-methionine biosynthesis
+PWY0-1433	tetrahydromonapterin biosynthesis
+PWY-922	mevalonate pathway I
+PWY-6476	cytidylyl molybdenum cofactor biosynthesis
+PWY-6420	pyrroloquinoline quinone biosynthesis
+PWY-6174	mevalonate pathway II (archaea)
+PWY-6148	tetrahydromethanopterin biosynthesis
+PWY-6012	acyl carrier protein metabolism
+PWY-5964	guanylyl molybdenum cofactor biosynthesis
+PWY-5963	thio-molybdenum cofactor biosynthesis
+PWY-5917	phycocyanobilin biosynthesis
+PWY-5915	phycoerythrobilin biosynthesis
+PWY-5499	vitamin B6 degradation
+PWY-5254	methanofuran biosynthesis
+PWY-5207	coenzyme B/coenzyme M regeneration
+PWY-5199	factor 420 polyglutamylation
+PWY-5198	factor 420 biosynthesis
+PWY-5196	factor 430 biosynthesis
+P241-PWY	coenzyme B biosynthesis
+PWY-5800	xylan biosynthesis
+PWY-361	phenylpropanoid biosynthesis
+PWY-321	cutin biosynthesis
+PWY-282	cuticular wax biosynthesis
+PWY-6733	sporopollenin precursor biosynthesis
+PWY-1121	suberin biosynthesis
+UDPNAGSYN-PWY	UDP-N-acetyl-D-glucosamine biosynthesis I
+NAGLIPASYN-PWY	lipid IVA biosynthesis
+PWY0-1338	polymyxin resistance
+KDOSYN-PWY	KDO transfer to lipid IVA I
+PWY-6463	peptidoglycan cross-bridge biosynthesis IV (Weissella viridescens)
+PWY-6462	peptidoglycan cross-bridge biosynthesis III (Enterococcus faecalis)
+PWY-6461	peptidoglycan cross-bridge biosynthesis II (E. faecium)
+PWY-6459	peptidoglycan cross-bridge biosynthesis I (S. aureus)
+PWY-6455	vancomycin resistance II
+PWY-6454	vancomycin resistance I
+PWY-6397	mycolyl-arabinogalactan-peptidoglycan complex biosynthesis
+PWY-6387	UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-DAP-containing)
+PWY-6386	UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)
+TEICHOICACID-PWY	teichoic acid (poly-glycerol) biosynthesis
+PWY-6626	CDP-2-glycerol biosynthesis
+PWY-5514	UDP-N-acetyl-D-galactosamine biosynthesis II
+PWY-5512	UDP-N-acetyl-D-galactosamine biosynthesis I
+ECASYN-PWY	enterobacterial common antigen biosynthesis
+PWY-6568	dermatan sulfate biosynthesis (late stages)
+PWY-6567	chondroitin sulfate biosynthesis (late stages)
+PWY-6566	chondroitin and dermatan biosynthesis
+PWY-6558	heparan sulfate biosynthesis (late stages)
+PWY-6557	glycoaminoglycan-protein linkage region biosynthesis
+PWY-622	starch biosynthesis
+PWY-5067	glycogen biosynthesis II (from UDP-D-Glucose)
+GLYCOGENSYNTH-PWY	glycogen biosynthesis I (from ADP-D-Glucose)
+PWY-6082	alginate biosynthesis II
+PWY-6073	alginate biosynthesis I
+PWY-6773	callose biosynthesis
+PWY-6658	acetan biosynthesis
+PWY-6655	xanthan biosynthesis
+PWY-6403	carrageenan biosynthesis
+PWY-5980	xylogalacturonan biosynthesis
+PWY-5936	xyloglucan biosynthesis
+PWY-6778	laminaribiose biosynthesis
+PWY-6525	stellariose and mediose biosynthesis
+PWY-6524	lychnose biosynthesis
+PWY-6116	mannosylfructose biosynthesis
+PWY-5343	ajugose biosynthesis II (galactinol-independent)
+PWY-5342	ajugose biosynthesis I (galactinol-dependent)
+PWY-5337	stachyose biosynthesis
+MANNOSYL-CHITO-DOLICHOL-BIOSYNTHESIS	dolichyl-diphosphooligosaccharide biosynthesis
+TRESYN-PWY	trehalose biosynthesis I
+TREHALOSESYN-PWY	trehalose biosynthesis III
+PWY-881	trehalose biosynthesis II
+PWY-5985	trehalose biosynthesis VII
+PWY-5983	trehalose biosynthesis VI
+PWY-2661	trehalose biosynthesis V
+PWY-2622	trehalose biosynthesis IV
+PWY-5530	sorbitol biosynthesis II
+PWY-5054	sorbitol biosynthesis I
+PWY-6739	pinitol biosynthesis II
+PWY-6738	pinitol biosynthesis I
+PWY-3881	mannitol biosynthesis
+PWY-3261	UDP-L-rhamnose biosynthesis
+PWY-3221	dTDP-L-rhamnose biosynthesis II
+GDPRHAMSYN-PWY	GDP-D-rhamnose biosynthesis
+DTDPRHAMSYN-PWY	dTDP-L-rhamnose biosynthesis I
+PWY-5659	GDP-mannose biosynthesis
+PWY-6139	CMP-N-acetylneuraminate biosynthesis II (bacteria)
+PWY-6138	CMP-N-acetylneuraminate biosynthesis I (eukaryotes)
+PWY0-1241	ADP-L-glycero-beta-D-manno-heptose biosynthesis
+PWY-82	UDP-L-arabinose biosynthesis II (from L-arabinose)
+PWY-6976	dTDP-L-mycarose biosynthesis
+PWY-6974	dTDP-L-olivose biosynthesis
+PWY-6973	dTDP-D-olivose, dTDP-D-oliose and dTDP-D-mycarose biosynthesis
+PWY-6953	dTDP-3-acetamido-3,6-dideoxy-alpha-D-galactose biosynthesis
+PWY-6942	dTDP-D-desosamine biosynthesis
+PWY-6749	CMP-legionaminate biosynthesis
+PWY-66	GDP-L-fucose biosynthesis I (from GDP-D-mannose)
+PWY-6478	GDP-D-glycero-alpha-D-manno-heptose biosynthesis
+PWY-63	UDP-L-arabinose biosynthesis I (from UDP-xylose)
+PWY-6144	CMP-N-glycoloylneuraminate biosynthesis
+PWY-6140	CMP-2-keto-3-deoxy-D-glycero-D-galacto-nononate biosynthesis
+PWY-6	GDP-L-fucose biosynthesis II (from L-fucose)
+PWY-5834	CDP-tyvelose biosynthesis
+PWY-5833	CDP-3,6-dideoxyhexose biosynthesis
+PWY-5832	CDP-paratose biosynthesis
+PWY-5831	CDP-abequose biosynthesis
+PWY-5830	CDP-ascarylose biosynthesis
+PWY-5740	GDP-L-colitose biosynthesis
+PWY-5739	GDP-alpha-D-perosamine biosynthesis
+PWY-5738	GDP-6-deoxy-D-talose biosynthesis
+PWY-5661	GDP-glucose biosynthesis
+PWY-5115	GDP-L-galactose biosynthesis
+PWY-3821	galactose degradation III
+PWY-5111	CMP-KDO biosynthesis II (from D-arabinose 5-phosphate)
+PWY-4861	UDP-D-galacturonate biosynthesis I (from UDP-D-glucuronate)
+PWY-4841	UDP-D-glucuronate biosynthesis (from myo-inositol)
+PWY-4821	UDP-D-xylose and UDP-D-glucuronate biosynthesis
+PWY-4	UDP-D-galacturonate biosynthesis II (from D-galacturonate)
+PWY-1269	CMP-KDO biosynthesis I
+PWY-5113	UDP-D-apiose biosynthesis (from UDP-D-glucuronate)
+GLUCONEO-PWY	gluconeogenesis I
+SUCSYN-PWY	sucrose biosynthesis
+PWY-842	starch degradation I
+PWY-822	fructan biosynthesis
+PWY-6724	starch degradation II
+PWY-6143	CMP-pseudaminate biosynthesis
+PWY-1061	homogalacturonan biosynthesis
+PWY-1001	cellulose biosynthesis
+GLYCOCAT-PWY	glycogen degradation I
+CALVIN-PWY	Calvin-Benson-Bassham cycle
+PWY-862	fructan degradation
+PWY-6622	heptadecane biosynthesis
+PWY-6333	acetaldehyde biosynthesis I
+PWY-6330	acetaldehyde biosynthesis II
+PWY-5782	2-keto-L-gulonate biosynthesis
+PWY-5750	itaconate biosynthesis
+TRNA-CHARGING-PWY	tRNA charging
+VALSYN-PWY	valine biosynthesis
+TYRSYN	tyrosine biosynthesis I
+PWY-6134	tyrosine biosynthesis IV
+PWY-6120	tyrosine biosynthesis III
+PWY-3461	tyrosine biosynthesis II
+TRPSYN-PWY	tryptophan biosynthesis
+HOMOSER-THRESYN-PWY	threonine biosynthesis from homoserine
+PWY0-901	selenocysteine biosynthesis I (bacteria)
+PWY-6281	selenocysteine biosynthesis II (archaea and eukaryotes)
+SERSYN-PWY	serine biosynthesis
+PWY-6196	serine racemization
+PWY-4981	proline biosynthesis II (from arginine)
+PWY-4281	proline biosynthesis IV
+PWY-3341	proline biosynthesis III
+PROSYN-PWY	proline biosynthesis I
+ARG-PRO-PWY	arginine degradation VI (arginase 2 pathway)
+PWY-3462	phenylalanine biosynthesis II
+PHESYN	phenylalanine biosynthesis I
+PWY-4921	protein citrullination
+CITRULBIO-PWY	citrulline biosynthesis
+PWY-6922	L-Ndelta-acetylornithine biosynthesis
+PWY-5957	nicotianamine biosynthesis
+PWY-5344	homocysteine biosynthesis
+PWY-5331	taurine biosynthesis
+PWY-1186	homomethionine biosynthesis
+HOMOSERSYN-PWY	homoserine biosynthesis
+GLUTORN-PWY	ornithine biosynthesis
+PWY-5041	S-adenosyl-L-methionine cycle II
+PWY-702	methionine biosynthesis II
+PWY-5441	S-methylmethionine cycle
+HSERMETANA-PWY	methionine biosynthesis III
+HOMOSER-METSYN-PWY	methionine biosynthesis I
+ADENOSYLHOMOCYSCAT-PWY	methionine salvage II (mammalia)
+PWY-6755	S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation
+PWY-5097	lysine biosynthesis VI
+PWY-3081	lysine biosynthesis V
+PWY-2942	lysine biosynthesis III
+PWY-2941	lysine biosynthesis II
+LYSINE-AMINOAD-PWY	lysine biosynthesis IV
+DAPLYSINESYN-PWY	lysine biosynthesis I
+LEUSYN-PWY	leucine biosynthesis
+PWY-5108	isoleucine biosynthesis V
+PWY-5104	isoleucine biosynthesis IV
+PWY-5103	isoleucine biosynthesis III
+PWY-5101	isoleucine biosynthesis II
+ILEUSYN-PWY	isoleucine biosynthesis I (from threonine)
+HISTSYN-PWY	histidine biosynthesis
+GLYSYN-THR-PWY	glycine biosynthesis IV
+GLYSYN-PWY	glycine biosynthesis I
+GLYSYN-ALA-PWY	glycine biosynthesis III
+GLYCINE-SYN2-PWY	glycine biosynthesis II
+PWY-6549	glutamine biosynthesis III
+PWY-5921	L-glutamine biosynthesis II (tRNA-dependent)
+GLNSYN-PWY	glutamine biosynthesis I
+PWY-4341	glutamate biosynthesis V
+GLUTSYNIII-PWY	glutamate biosynthesis III
+GLUTSYN-PWY	glutamate biosynthesis I
+GLUTAMATE-SYN2-PWY	glutamate biosynthesis II
+GLUGLNSYN-PWY	glutamate biosynthesis IV
+ARGASEDEG-PWY	arginine degradation I (arginase pathway)
+PWY-6308	cysteine biosynthesis II (RNA-dependent)
+HOMOCYSDEGR-PWY	cysteine biosynthesis/homocysteine degradation
+CYSTSYN-PWY	cysteine biosynthesis I
+PWY-5760	beta-alanine biosynthesis IV
+PWY-5155	beta-alanine biosynthesis III
+PWY-3981	beta-alanine biosynthesis I
+PWY-3941	beta-alanine biosynthesis II
+PWY-3982	uracil degradation II (reductive)
+GLUTDEG-PWY	glutamate degradation II
+ASPARTATESYN-PWY	aspartate biosynthesis
+ASPSYNII-PWY	cyanide detoxification II
+ASPARAGINESYN-PWY	asparagine biosynthesis II
+ASPARAGINE-BIOSYNTHESIS	asparagine biosynthesis I
+PWY490-4	asparagine biosynthesis III (tRNA-dependent)
+PWY-4983	citrulline-nitric oxide cycle
+PWY-5154	arginine biosynthesis III
+ARGSYNBSUB-PWY	arginine biosynthesis II (acetyl cycle)
+ARGININE-SYN4-PWY	arginine biosynthesis IV
+PWY0-1021	alanine biosynthesis III
+ALANINE-VALINESYN-PWY	alanine biosynthesis I
+ALANINE-SYN2-PWY	alanine biosynthesis II
+PWY-6482	diphthamide biosynthesis
+PWY-5905	hypusine biosynthesis
+PWY-6163	chorismate biosynthesis from 3-dehydroquinate
+PWY-6435	4-hydroxybenzoate biosynthesis V
+PWY-6431	4-hydroxybenzoate biosynthesis IV
+PWY-5755	4-hydroxybenzoate biosynthesis II (bacteria and fungi)
+PWY-5754	4-hydroxybenzoate biosynthesis I (animals)
+PWY-6164	3-dehydroquinate biosynthesis I
+PWY-6160	3-dehydroquinate biosynthesis II (archaea)
+PWY-981	salicylate biosynthesis II
+PWY-6930	phenolic malonylglucosides biosynthesis
+PWY-6762	salicylate glucosides biosynthesis IV
+PWY-6752	o-diquinones biosynthesis
+PWY-6707	gallate biosynthesis
+PWY-6624	salicylate glucosides biosynthesis III
+PWY-6623	salicylate glucosides biosynthesis II
+PWY-6539	petivericin biosynthesis
+PWY-6458	benzoyl-CoA biosynthesis
+PWY-6457	trans-cinnamoyl-CoA biosynthesis
+PWY-6406	salicylate biosynthesis I
+PWY-6323	benzoylanthranilate biosynthesis
+PWY-6320	phaselate biosynthesis
+PWY-5901	2,3-dihydroxybenzoate biosynthesis
+PWY-5886	4-hydroxyphenylpyruvate biosynthesis
+PWY-5787	oligomeric urushiol biosynthesis
+PWY-5765	1,3,5-trimethoxybenzene biosynthesis
+PWY-801	homocysteine and cysteine interconversion
+PWY-6972	oleandomycin activation/inactivation
+PWY-6303	methyl indole-3-acetate interconversion
+PWY-5926	afrormosin conjugates interconversion
+PWY-2904	formononetin conjugates interconversion
+PWY-2861	biochanin A conjugates interconversion
+PWY-2701	maackiain conjugates interconversion
+PWY-2561	medicarpin conjugates interconversion
+PWY-2345	genistein conjugates interconversion
+PWY-2343	daidzein conjugates interconversion
+PWY-5835	geranyl acetate biosynthesis
+PWY-6546	brassinosteroids inactivation
+PWY-6494	gibberellin inactivation III (epoxidation)
+PWY-6477	gibberellin inactivation II (methylation)
+PWY-102	gibberellin inactivation I (2beta-hydroxylation)
+PWY-5272	abscisic acid glucose ester biosynthesis
+PWYQT-4477	indole glucosinolate breakdown (active in intact plant cell)
+PWYQT-4476	indole glucosinolate breakdown (insect chewing induced)
+PWY-5267	glucosinolate breakdown
+PWY-5340	sulfate activation for sulfonation
+PWY-5143	fatty acid activation

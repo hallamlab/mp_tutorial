@@ -1,0 +1,355 @@
+SAMPLE	PWY_NAME	PWY_COMMON_NAME	NUM_REACTIONS	NUM_COVERED_REACTIONS	ORF_COUNT
+1_upper_euphotic	PWY-5913	TCA cycle VI (obligate autotrophs)	11	10	65
+1_upper_euphotic	PWY-6969	TCA cycle V (2-oxoglutarate:ferredoxin oxidoreductase)	12	9	46
+1_upper_euphotic	REDCITCYC	TCA cycle III (helicobacter)	9	8	33
+1_upper_euphotic	PWY-5690	TCA cycle II (eukaryotic)	9	8	42
+1_upper_euphotic	TCA	TCA cycle I (prokaryotic)	10	9	43
+1_upper_euphotic	ANARESP1-PWY	respiration (anaerobic)	13	10	44
+1_upper_euphotic	PWY-3781	aerobic respiration (cytochrome c)	4	4	31
+1_upper_euphotic	PWY-101	photosynthesis light reactions	4	1	3
+1_upper_euphotic	PWY-241	C4 photosynthetic carbon assimilation cycle	4	3	12
+1_upper_euphotic	NONOXIPENT-PWY	pentose phosphate pathway (non-oxidative branch)	5	5	13
+1_upper_euphotic	P21-PWY	pentose phosphate pathway (partial)	3	3	8
+1_upper_euphotic	PWY-6118	glycerol-3-phosphate shuttle	2	1	3
+1_upper_euphotic	METHANOGENESIS-PWY	methanogenesis from CO2	6	1	1
+1_upper_euphotic	METH-ACETATE-PWY	methanogenesis from acetate	6	3	11
+1_upper_euphotic	PWY-6772	hydrogen production V	2	1	5
+1_upper_euphotic	PWY-6780	hydrogen production VI	2	1	7
+1_upper_euphotic	PWY-1042	glycolysis IV (plant cytosol)	10	9	16
+1_upper_euphotic	ANAGLYCOLYSIS-PWY	glycolysis III (glucokinase)	10	9	18
+1_upper_euphotic	GLYCOLYSIS	glycolysis I	11	10	20
+1_upper_euphotic	PWY-5481	pyruvate fermentation to lactate	1	1	5
+1_upper_euphotic	PWY-5482	pyruvate fermentation to acetate II	3	2	7
+1_upper_euphotic	P108-PWY	pyruvate fermentation to propionate I	7	4	23
+1_upper_euphotic	PWY-6587	pyruvate fermentation to ethanol III	3	3	17
+1_upper_euphotic	P122-PWY	heterolactic fermentation	18	14	44
+1_upper_euphotic	FERMENTATION-PWY	mixed acid fermentation	16	12	55
+1_upper_euphotic	PWY0-1334	NADH to cytochrome bd oxidase electron transfer	2	2	11
+1_upper_euphotic	PWY0-1353	succinate to cytochrome bd oxidase electron transfer	2	2	10
+1_upper_euphotic	PYRUVOX-PWY	pyruvate oxidation pathway	1	1	5
+1_upper_euphotic	P641-PWY	phenylmercury acetate degradation	2	1	1
+1_upper_euphotic	PWY0-1305	glutamate dependent acid resistance	1	1	2
+1_upper_euphotic	PWY-6842	glutathione-mediated detoxification II	8	2	9
+1_upper_euphotic	DETOX1-PWY	superoxide radicals degradation	2	2	4
+1_upper_euphotic	PWY-6946	cholesterol degradation to androstenedione II (cholesterol dehydrogenase)	17	1	6
+1_upper_euphotic	PWY-6945	cholesterol degradation to androstenedione I (cholesterol oxidase)	17	1	6
+1_upper_euphotic	PWY-6943	testosterone and androsterone degradation to androstendione	3	1	2
+1_upper_euphotic	PWY-5988	wound-induced proteolysis I	1	1	6
+1_upper_euphotic	PWY-6018	seed germination protein turnover	1	1	6
+1_upper_euphotic	PWY66-201	nicotine degradation II	16	1	1
+1_upper_euphotic	PWY66-221	nicotine degradation III	18	1	1
+1_upper_euphotic	P344-PWY	acrylonitrile degradation	3	2	8
+1_upper_euphotic	PWY-6518	glycocholate metabolism (bacteria)	7	1	2
+1_upper_euphotic	PWY-4061	glutathione-mediated detoxification	5	2	9
+1_upper_euphotic	PWY-723	alkylnitronates degradation	2	2	10
+1_upper_euphotic	PWY-6637	sulfolactate degradation II	4	2	4
+1_upper_euphotic	PWY-5674	nitrate reduction IV (dissimilatory)	2	1	2
+1_upper_euphotic	P303-PWY	ammonia oxidation II (anaerobic)	5	1	2
+1_upper_euphotic	PWY-6963	ammonia assimilation cycle I	2	2	21
+1_upper_euphotic	PWY-6964	ammonia assimilation cycle II	2	2	21
+1_upper_euphotic	PWY-6523	intra-aerobic nitrite reduction	2	1	2
+1_upper_euphotic	PWY-4984	urea cycle	5	4	8
+1_upper_euphotic	PWY-5986	ammonium transport	1	1	4
+1_upper_euphotic	PWY0-1298	pyrimidine deoxyribonucleosides degradation	6	3	9
+1_upper_euphotic	PWY-6606	guanosine nucleotides degradation II	4	2	6
+1_upper_euphotic	PWY-6608	guanosine nucleotides degradation III	4	2	6
+1_upper_euphotic	SALVADEHYPOX-PWY	adenosine nucleotides degradation II	5	2	6
+1_upper_euphotic	PWY-6596	adenosine nucleotides degradation I	8	2	7
+1_upper_euphotic	P164-PWY	purine nucleotides degradation III (anaerobic)	17	5	13
+1_upper_euphotic	PWY-5497	purine nucleotides degradation IV (anaerobic)	22	8	19
+1_upper_euphotic	PWY-6754	S-methyl-5-thioadenosine degradation I	2	1	1
+1_upper_euphotic	PWY0-1297	purine deoxyribonucleosides degradation	7	3	9
+1_upper_euphotic	PWY-5138	fatty acid beta-oxidation IV (unsaturated, even number)	6	2	17
+1_upper_euphotic	FAO-PWY	fatty acid beta-oxidation I	7	5	62
+1_upper_euphotic	PWY0-1337	oleate beta-oxidation	3	2	17
+1_upper_euphotic	LIPASYN-PWY	phospholipases	5	1	1
+1_upper_euphotic	XYLCAT-PWY	xylose degradation I	2	1	1
+1_upper_euphotic	PWY-6317	galactose degradation I (Leloir pathway)	6	2	5
+1_upper_euphotic	NPGLUCAT-PWY	Entner-Doudoroff pathway II (non-phosphorylative)	10	6	16
+1_upper_euphotic	PWY-2221	Entner-Doudoroff pathway III (semi-phosphorylative)	10	5	15
+1_upper_euphotic	GLUCOSE1PMETAB-PWY	glucose and glucose-1-phosphate degradation	6	2	3
+1_upper_euphotic	MANNCAT-PWY	D-mannose degradation	1	1	2
+1_upper_euphotic	PWY-6573	chondroitin sulfate degradation (metazoa)	4	1	2
+1_upper_euphotic	PWY-6576	dermatan sulfate degradation (metazoa)	4	1	1
+1_upper_euphotic	PWY-6788	cellulose degradation II (fungi)	3	1	1
+1_upper_euphotic	PWY-6805	cellulose degradation I (cellulosome)	8	1	1
+1_upper_euphotic	PWY0-42	2-methylcitrate cycle I	5	2	4
+1_upper_euphotic	PWY-5747	2-methylcitrate cycle II	6	2	4
+1_upper_euphotic	PROPIONMET-PWY	methylmalonyl pathway	3	2	12
+1_upper_euphotic	PWY-6695	oxalate degradation II	4	1	2
+1_upper_euphotic	GLYOXDEG-PWY	glycolate and glyoxylate degradation II	2	2	11
+1_upper_euphotic	PWY0-1312	acetate formation from acetyl-CoA I	2	1	2
+1_upper_euphotic	PWY-5535	acetate formation from acetyl-CoA II	1	1	2
+1_upper_euphotic	2OXOBUTYRATECAT-PWY	2-oxobutanoate degradation II	2	1	1
+1_upper_euphotic	PWY-6038	citrate degradation	5	2	1
+1_upper_euphotic	PYRUVDEHYD-PWY	acetyl-CoA biosynthesis I (pyruvate dehydrogenase complex)	3	3	11
+1_upper_euphotic	PWY0-1313	acetate conversion to acetyl-CoA	1	1	2
+1_upper_euphotic	PWY-6966	methanol oxidation to formaldehyde I	1	1	1
+1_upper_euphotic	PWY-6510	methanol oxidation to formaldehyde II	1	1	1
+1_upper_euphotic	PWY-1722	formaldehyde oxidation V (tetrahydrofolate pathway)	4	2	5
+1_upper_euphotic	PWY-1622	formaldehyde assimilation I (serine pathway)	13	9	21
+1_upper_euphotic	PWY-5392	reductive TCA cycle II	12	8	37
+1_upper_euphotic	P42-PWY	incomplete reductive TCA cycle	7	6	27
+1_upper_euphotic	PWY-5743	3-hydroxypropionate cycle	11	4	20
+1_upper_euphotic	CODH-PWY	reductive acetyl coenzyme A pathway	8	6	20
+1_upper_euphotic	PWY-5789	3-hydroxypropionate/4-hydroxybutyrate cycle	17	5	56
+1_upper_euphotic	PWYQT-4429	CO2 fixation into oxaloacetate (anapleurotic)	2	2	3
+1_upper_euphotic	PWY-5493	reductive monocarboxylic acid cycle	2	1	2
+1_upper_euphotic	PWY-1881	formate oxidation to CO2	1	1	6
+1_upper_euphotic	VALDEG-PWY	valine degradation I	8	2	21
+1_upper_euphotic	TYRFUMCAT-PWY	tyrosine degradation I	5	1	1
+1_upper_euphotic	TRPKYNCAT-PWY	tryptophan degradation IV (via indole-3-lactate)	2	1	2
+1_upper_euphotic	TRPCAT-PWY	tryptophan degradation I (via anthranilate)	3	2	2
+1_upper_euphotic	PWY-5651	tryptophan degradation to 2-amino-3-carboxymuconate semialdehyde	5	2	2
+1_upper_euphotic	PWY-5436	threonine degradation IV	2	2	8
+1_upper_euphotic	THREONINE-DEG2-PWY	threonine degradation II	2	1	1
+1_upper_euphotic	THRDLCTCAT-PWY	threonine degradation III (to methylglyoxal)	3	1	1
+1_upper_euphotic	PWY-6318	phenylalanine degradation IV (mammalian, via side chain)	9	2	3
+1_upper_euphotic	PWY0-981	taurine degradation IV	1	1	3
+1_upper_euphotic	CITRULLINE-DEG-PWY	citrulline degradation	2	1	1
+1_upper_euphotic	METHIONINE-DEG1-PWY	methionine degradation I (to homocysteine)	3	2	12
+1_upper_euphotic	LYSINE-DEG1-PWY	lysine degradation II	6	1	2
+1_upper_euphotic	LEU-DEG2-PWY	leucine degradation I	6	3	8
+1_upper_euphotic	ILEUDEG-PWY	isoleucine degradation I	6	2	4
+1_upper_euphotic	PWY-5028	histidine degradation II	5	3	4
+1_upper_euphotic	GLYCLEAV-PWY	glycine cleavage complex	3	3	14
+1_upper_euphotic	GLUTAMINDEG-PWY	glutamine degradation I	1	1	14
+1_upper_euphotic	GLUTAMINEFUM-PWY	glutamine degradation II	1	1	14
+1_upper_euphotic	PWY-5766	glutamate degradation X	1	1	1
+1_upper_euphotic	PWY-1781	beta-alanine degradation II	2	2	6
+1_upper_euphotic	ASPARTATE-DEG1-PWY	aspartate degradation I	1	1	5
+1_upper_euphotic	ASPARAGINE-DEG1-PWY	asparagine degradation I	1	1	2
+1_upper_euphotic	AST-PWY	arginine degradation II (AST pathway)	5	1	7
+1_upper_euphotic	ALACAT2-PWY	alanine degradation II (to D-lactate)	3	3	3
+1_upper_euphotic	PWY1-2	alanine degradation IV	1	1	3
+1_upper_euphotic	PWY-5084	2-ketoglutarate dehydrogenase complex	3	3	9
+1_upper_euphotic	PWY-6344	ornithine degradation II (Stickland reaction)	9	2	3
+1_upper_euphotic	PWY0-1317	L-lactaldehyde degradation (aerobic)	2	1	10
+1_upper_euphotic	PWY-5386	methylglyoxal degradation I	3	3	4
+1_upper_euphotic	PWY-5458	methylglyoxal degradation V	3	1	10
+1_upper_euphotic	PWY-4261	glycerol degradation I	2	1	3
+1_upper_euphotic	ETOH-ACETYLCOA-ANA-PWY	ethanol degradation I	2	2	15
+1_upper_euphotic	PWY66-21	ethanol degradation II	3	3	19
+1_upper_euphotic	PWY-6464	polyvinyl alcohol degradation	2	1	2
+1_upper_euphotic	12DICHLORETHDEG-PWY	1,2-dichloroethane degradation	4	3	3
+1_upper_euphotic	TOLUENE-DEG-2-OH-PWY	toluene degradation to 2-oxopent-4-enoate I (via o-cresol)	4	1	1
+1_upper_euphotic	TOLUENE-DEG-3-OH-PWY	toluene degradation to 2-oxopent-4-enoate (via 4-methylcatechol)	4	1	1
+1_upper_euphotic	TOLUENE-DEG-4-OH-PWY	toluene degradation to protocatechuate (via p-cresol)	4	1	1
+1_upper_euphotic	PWY-6640	salicylate degradation IV	5	1	1
+1_upper_euphotic	PROTOCATECHUATE-ORTHO-CLEAVAGE-PWY	protocatechuate degradation II (ortho-cleavage pathway)	4	1	2
+1_upper_euphotic	PWY-1341	phenylacetate degradation II (anaerobic)	3	1	2
+1_upper_euphotic	PWY0-321	phenylacetate degradation I (aerobic)	9	1	2
+1_upper_euphotic	PWY-5055	nicotinate degradation III	9	1	1
+1_upper_euphotic	P3-PWY	gallate degradation III (anaerobic)	11	3	21
+1_upper_euphotic	PWY-6193	3-chlorocatechol degradation II (ortho)	5	1	4
+1_upper_euphotic	P183-PWY	catechol degradation to 2-oxopent-4-enoate I	2	1	2
+1_upper_euphotic	PWY-481	ethylbenzene degradation (anaerobic)	5	1	2
+1_upper_euphotic	P562-PWY	myo-inositol degradation	6	2	5
+1_upper_euphotic	GLUCUROCAT-PWY	beta-D-glucuronide and D-glucuronate degradation	5	2	4
+1_upper_euphotic	GALACTUROCAT-PWY	D-galacturonate degradation I	4	1	1
+1_upper_euphotic	IDNCAT-PWY	L-idonate degradation	3	1	1
+1_upper_euphotic	GALACTCAT-PWY	D-galactonate degradation	3	1	1
+1_upper_euphotic	PWY-4702	phytate degradation I	14	1	5
+1_upper_euphotic	PWY0-1261	1,6-anhydro-N-acetylmuramic acid recycling	2	2	4
+1_upper_euphotic	PWY-5703	urea degradation I	2	2	3
+1_upper_euphotic	PWY-0	putrescine degradation III	4	1	7
+1_upper_euphotic	CRNFORCAT-PWY	creatinine degradation I	4	2	3
+1_upper_euphotic	PWY-4722	creatinine degradation II	5	2	3
+1_upper_euphotic	CARNMET-PWY	carnitine degradation I	4	1	1
+1_upper_euphotic	PWY-5698	allantoin degradation to ureidoglycolate II (ammonia producing)	3	1	2
+1_upper_euphotic	PWY-5022	4-aminobutyrate degradation V	8	2	2
+1_upper_euphotic	P561-PWY	stachydrine degradation	2	1	1
+1_upper_euphotic	PWY-40	putrescine biosynthesis I	2	1	2
+1_upper_euphotic	PWY1F-353	glycine betaine biosynthesis III (plants)	3	2	2
+1_upper_euphotic	BETSYN-PWY	glycine betaine biosynthesis I (Gram-negative bacteria)	2	2	2
+1_upper_euphotic	CHOLINE-BETAINE-ANA-PWY	choline degradation I	2	2	2
+1_upper_euphotic	PWY0-823	arginine degradation III (arginine decarboxylase/agmatinase pathway)	2	1	2
+1_upper_euphotic	PWY-5695	urate biosynthesis/inosine 5-phosphate degradation	4	2	3
+1_upper_euphotic	PWY0-163	salvage pathways of pyrimidine ribonucleotides	8	2	5
+1_upper_euphotic	PWY0-181	salvage pathways of pyrimidine deoxyribonucleotides	5	2	2
+1_upper_euphotic	PWY-5686	uridine-5-phosphate biosynthesis	6	4	11
+1_upper_euphotic	PWY0-166	pyrimidine deoxyribonucleotides de novo biosynthesis I	13	8	16
+1_upper_euphotic	PWY-6545	pyrimidine deoxyribonucleotides de novo biosynthesis II	14	9	16
+1_upper_euphotic	PWY-5687	pyrimidine ribonucleotides interconversion	11	5	9
+1_upper_euphotic	PWY-6599	guanine and guanosine salvage II	2	1	3
+1_upper_euphotic	PWY-6620	guanine and guanosine salvage I	2	1	3
+1_upper_euphotic	PWY-6610	adenine and adenosine salvage IV	3	2	4
+1_upper_euphotic	SALVPURINE2-PWY	xanthine and xanthosine salvage	2	1	1
+1_upper_euphotic	P1-PWY	purine and pyrimidine metabolism	17	8	15
+1_upper_euphotic	PWY-6123	inosine-5-phosphate biosynthesis I	6	3	10
+1_upper_euphotic	PWY-6124	inosine-5-phosphate biosynthesis II	5	3	10
+1_upper_euphotic	PWY-6126	adenosine nucleotides de novo biosynthesis	8	6	38
+1_upper_euphotic	PWY-6125	guanosine nucleotides de novo biosynthesis	9	6	23
+1_upper_euphotic	PWY-6700	queuosine biosynthesis	4	3	5
+1_upper_euphotic	PWY0-1479	tRNA processing pathway I	10	5	4
+1_upper_euphotic	PWY-6121	5-aminoimidazole ribonucleotide biosynthesis I	5	4	14
+1_upper_euphotic	PWY-6122	5-aminoimidazole ribonucleotide biosynthesis II	5	4	14
+1_upper_euphotic	PWY-6405	Rapoport-Luebering glycolytic shunt	3	1	3
+1_upper_euphotic	PPGPPMET-PWY	ppGpp biosynthesis	6	2	6
+1_upper_euphotic	PWY-6032	cardenolide biosynthesis	5	1	2
+1_upper_euphotic	PWY-5669	phosphatidylethanolamine biosynthesis I	2	2	3
+1_upper_euphotic	PWY-5668	cardiolipin biosynthesis I	3	3	11
+1_upper_euphotic	PWY-5269	cardiolipin biosynthesis II	3	3	9
+1_upper_euphotic	PWY0-1319	CDP-diacylglycerol biosynthesis II	4	2	4
+1_upper_euphotic	PWY-5667	CDP-diacylglycerol biosynthesis I	4	2	4
+1_upper_euphotic	PWY0-541	cyclopropane fatty acid (CFA) biosynthesis	1	1	1
+1_upper_euphotic	PWY-5367	petroselinate biosynthesis	6	1	9
+1_upper_euphotic	PWY-6603	dicranin biosynthesis	4	1	4
+1_upper_euphotic	PWY-5989	stearate biosynthesis II (plants)	5	1	9
+1_upper_euphotic	PWY-6282	palmitoleate biosynthesis I	9	2	1
+1_upper_euphotic	PWY-5994	palmitate biosynthesis I (animals)	29	7	9
+1_upper_euphotic	PWY-5971	palmitate biosynthesis II (bacteria and plants)	29	7	9
+1_upper_euphotic	PWY-5996	oleate biosynthesis II (animals)	2	1	4
+1_upper_euphotic	FASYN-ELONG-PWY	fatty acid elongation -- saturated	5	3	17
+1_upper_euphotic	PWY-5973	cis-vaccenate biosynthesis	5	2	10
+1_upper_euphotic	PWYG-321	mycolate biosynthesis	192	29	10
+1_upper_euphotic	PWY0-862	cis-dodecenoyl biosynthesis	6	2	10
+1_upper_euphotic	PWY-4381	fatty acid biosynthesis initiation I	3	2	16
+1_upper_euphotic	PWY-6710	poly-hydroxy fatty acids biosynthesis	11	4	5
+1_upper_euphotic	PWY-5080	very long chain fatty acid biosynthesis	4	1	1
+1_upper_euphotic	PWY-3561	choline biosynthesis III	3	1	1
+1_upper_euphotic	PWY0-1264	biotin-carboxyl carrier protein assembly	4	2	3
+1_upper_euphotic	KDO-LIPASYN-PWY	(KDO)2-lipid A biosynthesis I	2	1	1
+1_upper_euphotic	PWY-5148	acyl-CoA hydrolysis	1	1	1
+1_upper_euphotic	PWY-6362	1D-myo-inositol hexakisphosphate biosynthesis II (mammalian)	5	1	1
+1_upper_euphotic	PWY-2301	myo-inositol biosynthesis	2	1	5
+1_upper_euphotic	PWY-6363	D-myo-inositol (1,4,5)-trisphosphate degradation	3	1	1
+1_upper_euphotic	PWY-6364	D-myo-inositol (1,3,4)-trisphosphate biosynthesis	3	1	1
+1_upper_euphotic	PWY-6627	salinosporamide A biosynthesis	15	2	6
+1_upper_euphotic	PWY-6681	neurosporaxanthin biosynthesis	7	1	7
+1_upper_euphotic	PWY-6287	neurosporene biosynthesis	5	1	4
+1_upper_euphotic	PWY-5	canavanine biosynthesis	4	3	7
+1_upper_euphotic	PWY-5426	betaxanthin biosynthesis	3	1	1
+1_upper_euphotic	PWY-5403	betaxanthin biosynthesis (via dopamine)	2	1	1
+1_upper_euphotic	PWY-6322	phosphinothricin tripeptide biosynthesis	19	2	2
+1_upper_euphotic	PWY-5629	isopenicillin N biosynthesis	2	1	1
+1_upper_euphotic	PWY-5940	streptomycin biosynthesis	19	2	2
+1_upper_euphotic	PWY-6703	preQ0 biosynthesis	4	3	4
+1_upper_euphotic	ETHYL-PWY	ethylene biosynthesis I (plants)	3	2	5
+1_upper_euphotic	PWY-2781	cis-zeatin biosynthesis	5	1	2
+1_upper_euphotic	PWY-699	brassinosteroid biosynthesis I	22	1	2
+1_upper_euphotic	PWY-2582	brassinosteroid biosynthesis II	21	1	2
+1_upper_euphotic	PWY-581	IAA biosynthesis I	17	5	7
+1_upper_euphotic	PWY-6299	aldehyde oxidation I	3	1	1
+1_upper_euphotic	PWY-6030	serotonin and melatonin biosynthesis	4	1	1
+1_upper_euphotic	PWY66-378	androgen biosynthesis	6	1	4
+1_upper_euphotic	PWY-6466	pyridoxal 5-phosphate biosynthesis II	1	1	1
+1_upper_euphotic	PLPSAL-PWY	pyridoxal 5-phosphate salvage pathway	5	2	2
+1_upper_euphotic	PYRIDOXSYN-PWY	pyridoxal 5-phosphate biosynthesis I	8	4	5
+1_upper_euphotic	PANTO-PWY	phosphopantothenate biosynthesis I	4	2	3
+1_upper_euphotic	PWY-6654	phosphopantothenate biosynthesis III	4	2	3
+1_upper_euphotic	PWY-6147	6-hydroxymethyl-dihydropterin diphosphate biosynthesis I	5	2	3
+1_upper_euphotic	PWY-6797	6-hydroxymethyl-dihydropterin diphosphate biosynthesis II (archaea)	7	2	3
+1_upper_euphotic	PWY-6543	p-aminobenzoate biosynthesis	2	2	16
+1_upper_euphotic	PWY-6613	tetrahydrofolate salvage from 5,10-methenyltetrahydrofolate	2	1	3
+1_upper_euphotic	PWY-6614	tetrahydrofolate biosynthesis	3	2	7
+1_upper_euphotic	PWY-2201	folate transformations I	12	8	17
+1_upper_euphotic	1CMET2-PWY	formylTHF biosynthesis I	11	9	22
+1_upper_euphotic	PWY-2161	folate polyglutamylation	5	3	7
+1_upper_euphotic	RIBOSYN2-PWY	flavin biosynthesis I (bacteria and plants)	9	3	4
+1_upper_euphotic	PWY-6168	flavin biosynthesis III (fungi)	9	3	4
+1_upper_euphotic	PWY-6167	flavin biosynthesis II (archaea)	10	3	3
+1_upper_euphotic	COBALSYN-PWY	adenosylcobalamin salvage from cobinamide I	6	1	1
+1_upper_euphotic	PWY0-1507	biotin biosynthesis from 7-keto-8-aminopelargonate	3	1	2
+1_upper_euphotic	PWY3DJ-35471	L-ascorbate biosynthesis VI	7	2	6
+1_upper_euphotic	PWY-5188	tetrapyrrole biosynthesis I	6	3	8
+1_upper_euphotic	PWY-5189	tetrapyrrole biosynthesis II	4	3	6
+1_upper_euphotic	GLUTATHIONESYN-PWY	glutathione biosynthesis	2	2	3
+1_upper_euphotic	GLUT-REDOX-PWY	glutathione redox reactions II	2	1	2
+1_upper_euphotic	PWY-4081	glutathione redox reactions I	3	3	5
+1_upper_euphotic	PWY-6708	ubiquinol-8 biosynthesis (prokaryotic)	8	3	5
+1_upper_euphotic	MENAQUINONESYN-PWY	menaquinol-8 biosynthesis	1	1	2
+1_upper_euphotic	PWY-5791	1,4-dihydroxy-2-naphthoate biosynthesis II (plants)	7	1	1
+1_upper_euphotic	HEME-BIOSYNTHESIS-II	heme biosynthesis from uroporphyrinogen-III I	4	3	11
+1_upper_euphotic	HEMESYN2-PWY	heme biosynthesis from uroporphyrinogen-III II	4	3	11
+1_upper_euphotic	CHLOROPHYLL-SYN	chlorophyllide a biosynthesis I	10	6	12
+1_upper_euphotic	PWY-5123	trans, trans-farnesyl diphosphate biosynthesis	3	2	1
+1_upper_euphotic	PWY-5785	di-trans,poly-cis-undecaprenyl phosphate biosynthesis	1	1	2
+1_upper_euphotic	PWY-5122	geranyl diphosphate biosynthesis	1	1	1
+1_upper_euphotic	NONMEVIPP-PWY	methylerythritol phosphate pathway	9	5	5
+1_upper_euphotic	PYRIDNUCSYN-PWY	NAD biosynthesis I (from aspartate)	6	6	9
+1_upper_euphotic	PYRIDNUCSAL-PWY	NAD salvage pathway I	8	4	13
+1_upper_euphotic	PWY-5083	NAD/NADH phosphorylation and dephosphorylation	6	3	20
+1_upper_euphotic	PWY-5381	pyridine nucleotide cycling (plants)	11	4	13
+1_upper_euphotic	PWY0-1275	lipoate biosynthesis and incorporation II	2	1	2
+1_upper_euphotic	PWY0-501	lipoate biosynthesis and incorporation I	2	1	2
+1_upper_euphotic	P261-PWY	coenzyme M biosynthesis I	7	2	4
+1_upper_euphotic	COA-PWY	coenzyme A biosynthesis	4	1	8
+1_upper_euphotic	PWY-5964	guanylyl molybdenum cofactor biosynthesis	1	1	1
+1_upper_euphotic	PWY-6012	acyl carrier protein metabolism	2	1	1
+1_upper_euphotic	PWY-5207	coenzyme B/coenzyme M regeneration	3	1	1
+1_upper_euphotic	PWY-6148	tetrahydromethanopterin biosynthesis	10	1	6
+1_upper_euphotic	PWY-5499	vitamin B6 degradation	9	1	3
+1_upper_euphotic	PWY0-1433	tetrahydromonapterin biosynthesis	3	1	1
+1_upper_euphotic	PWY-5198	factor 420 biosynthesis	5	1	1
+1_upper_euphotic	SAM-PWY	S-adenosyl-L-methionine biosynthesis	1	1	4
+1_upper_euphotic	UDPNAGSYN-PWY	UDP-N-acetyl-D-glucosamine biosynthesis I	4	4	14
+1_upper_euphotic	NAGLIPASYN-PWY	lipid IVA biosynthesis	6	2	2
+1_upper_euphotic	PWY-6397	mycolyl-arabinogalactan-peptidoglycan complex biosynthesis	18	2	7
+1_upper_euphotic	PWY-6387	UDP-N-acetylmuramoyl-pentapeptide biosynthesis III (meso-DAP-containing)	8	6	16
+1_upper_euphotic	PWY0-662	PRPP biosynthesis I	1	1	3
+1_upper_euphotic	PWY-5656	mannosylglycerate biosynthesis I	2	1	1
+1_upper_euphotic	PWY-6840	homoglutathione biosynthesis	2	1	2
+1_upper_euphotic	PWY-6481	L-dopachrome biosynthesis	3	1	2
+1_upper_euphotic	DTDPRHAMSYN-PWY	dTDP-L-rhamnose biosynthesis I	4	3	6
+1_upper_euphotic	PWY-5659	GDP-mannose biosynthesis	4	3	5
+1_upper_euphotic	PWY-6139	CMP-N-acetylneuraminate biosynthesis II (bacteria)	3	1	1
+1_upper_euphotic	PWY-3821	galactose degradation III	6	2	7
+1_upper_euphotic	PWY-6478	GDP-D-glycero-alpha-D-manno-heptose biosynthesis	4	1	2
+1_upper_euphotic	PWY-1269	CMP-KDO biosynthesis I	4	2	4
+1_upper_euphotic	PWY-5740	GDP-L-colitose biosynthesis	3	1	1
+1_upper_euphotic	GLUCONEO-PWY	gluconeogenesis I	13	12	22
+1_upper_euphotic	PWY-6333	acetaldehyde biosynthesis I	2	1	8
+1_upper_euphotic	PWY-5750	itaconate biosynthesis	4	3	9
+1_upper_euphotic	TRNA-CHARGING-PWY	tRNA charging	20	18	78
+1_upper_euphotic	VALSYN-PWY	valine biosynthesis	4	3	17
+1_upper_euphotic	TYRSYN	tyrosine biosynthesis I	3	3	5
+1_upper_euphotic	PWY-6120	tyrosine biosynthesis III	3	2	5
+1_upper_euphotic	PWY-3461	tyrosine biosynthesis II	3	2	2
+1_upper_euphotic	TRPSYN-PWY	tryptophan biosynthesis	6	5	16
+1_upper_euphotic	HOMOSER-THRESYN-PWY	threonine biosynthesis from homoserine	2	1	1
+1_upper_euphotic	SERSYN-PWY	serine biosynthesis	3	3	5
+1_upper_euphotic	PROSYN-PWY	proline biosynthesis I	4	3	5
+1_upper_euphotic	PWY-4981	proline biosynthesis II (from arginine)	6	2	3
+1_upper_euphotic	CITRULBIO-PWY	citrulline biosynthesis	8	4	18
+1_upper_euphotic	PWY-5344	homocysteine biosynthesis	2	1	1
+1_upper_euphotic	HOMOSERSYN-PWY	homoserine biosynthesis	3	2	4
+1_upper_euphotic	GLUTORN-PWY	ornithine biosynthesis	5	3	5
+1_upper_euphotic	PWY-5041	S-adenosyl-L-methionine cycle II	4	3	15
+1_upper_euphotic	PWY-6755	S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation	6	1	3
+1_upper_euphotic	PWY-702	methionine biosynthesis II	6	3	5
+1_upper_euphotic	HOMOSER-METSYN-PWY	methionine biosynthesis I	5	4	7
+1_upper_euphotic	DAPLYSINESYN-PWY	lysine biosynthesis I	9	7	19
+1_upper_euphotic	PWY-5097	lysine biosynthesis VI	7	6	18
+1_upper_euphotic	LEUSYN-PWY	leucine biosynthesis	6	5	15
+1_upper_euphotic	PWY-5104	isoleucine biosynthesis IV	6	3	9
+1_upper_euphotic	ILEUSYN-PWY	isoleucine biosynthesis I (from threonine)	5	3	10
+1_upper_euphotic	HISTSYN-PWY	histidine biosynthesis	10	6	13
+1_upper_euphotic	GLYSYN-PWY	glycine biosynthesis I	1	1	2
+1_upper_euphotic	GLYSYN-THR-PWY	glycine biosynthesis IV	1	1	1
+1_upper_euphotic	GLYCINE-SYN2-PWY	glycine biosynthesis II	1	1	1
+1_upper_euphotic	GLYSYN-ALA-PWY	glycine biosynthesis III	1	1	2
+1_upper_euphotic	PWY-5921	L-glutamine biosynthesis II (tRNA-dependent)	2	1	8
+1_upper_euphotic	PWY-6549	glutamine biosynthesis III	9	9	45
+1_upper_euphotic	GLUTAMATE-SYN2-PWY	glutamate biosynthesis II	1	1	1
+1_upper_euphotic	PWY-4341	glutamate biosynthesis V	1	1	14
+1_upper_euphotic	GLUGLNSYN-PWY	glutamate biosynthesis IV	1	1	14
+1_upper_euphotic	GLUTSYNIII-PWY	glutamate biosynthesis III	1	1	18
+1_upper_euphotic	GLUTSYN-PWY	glutamate biosynthesis I	1	1	14
+1_upper_euphotic	CYSTSYN-PWY	cysteine biosynthesis I	2	2	6
+1_upper_euphotic	GLUTDEG-PWY	glutamate degradation II	2	2	6
+1_upper_euphotic	PWY490-4	asparagine biosynthesis III (tRNA-dependent)	3	1	2
+1_upper_euphotic	ASPARAGINE-BIOSYNTHESIS	asparagine biosynthesis I	1	1	2
+1_upper_euphotic	ARGININE-SYN4-PWY	arginine biosynthesis IV	6	4	8
+1_upper_euphotic	ARGSYNBSUB-PWY	arginine biosynthesis II (acetyl cycle)	9	8	13
+1_upper_euphotic	ALANINE-VALINESYN-PWY	alanine biosynthesis I	3	1	4
+1_upper_euphotic	PWY0-1021	alanine biosynthesis III	1	1	3
+1_upper_euphotic	ALANINE-SYN2-PWY	alanine biosynthesis II	1	1	1
+1_upper_euphotic	PWY-5905	hypusine biosynthesis	2	1	1
+1_upper_euphotic	PWY-6163	chorismate biosynthesis from 3-dehydroquinate	6	3	6
+1_upper_euphotic	PWY-6164	3-dehydroquinate biosynthesis I	2	2	11
+1_upper_euphotic	PWY-6458	benzoyl-CoA biosynthesis	3	1	2
+1_upper_euphotic	PWY-5901	2,3-dihydroxybenzoate biosynthesis	3	1	1
+1_upper_euphotic	PWY-6752	o-diquinones biosynthesis	1	1	2
+1_upper_euphotic	PWY-801	homocysteine and cysteine interconversion	4	3	5
+1_upper_euphotic	PWY-5143	fatty acid activation	1	1	11
