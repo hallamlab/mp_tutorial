@@ -12,10 +12,11 @@ HOT_data <- read.table("HOT_megan_table.txt", header=TRUE, sep="\t", row.names=1
 
 ## 2. Data Scaling
 # alway important to plot your data to get a sense of its distribution
-par(mfrow=c(1,2)) 
+par(mfrow=c(1,2)) # multiple plots in one graph
 hist(as.matrix(HOT_data))
 hist(as.matrix(log(HOT_data + 1)))
 HOT_data <- log(HOT_data + 1)
+par(mfrow=c(1,2))
 
 ## 3. Distance Matrices and Clustering
 HOT_data.t <- t(HOT_data) # transpose HOT_data
