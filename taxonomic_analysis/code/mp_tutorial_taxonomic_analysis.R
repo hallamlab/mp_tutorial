@@ -67,7 +67,8 @@ HOT_data.pv_fit <- pvclust(HOT_data, method.hclust="complete", method.dist="eucl
 plot(HOT_data.pv_fit)
 
 # unfortunately, pvcust does not have bcdist implemented but it was not that hard to add it
-library("devtools") # used to source functions from the internet
+try(library("devtools"), install.packages("devtools")) # used to source functions from the internet
+library("devtools")
 source_url('http://raw.github.com/nielshanson/mp_tutorial/master/taxonomic_analysis/code/pvclust_bcdist.R')
 # alternatively, you might want to download the above function and load using source()
 # e.g. source('/where/I/downloaded/pvclust_bcdist.R')
