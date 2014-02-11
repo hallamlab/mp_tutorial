@@ -1,62 +1,83 @@
 ## HOT_pathway_analysis.r
 
 # set working directory to the HOT_pathway_analysis directory
-setwd("~/Dropbox/HOT_pathway_analysis/")
+setwd("~/mp_tutorial/downstream_analysis_r/code/")
 
 # read in data
 # the "wide", the "lookup" table, and the "metadata" table of 
 # samples to experimental/environmental conditions
-pathways_wide <- read.table("data/HOT_pwys_wide.txt", sep="\t", header=T, row.names=1)
-hot_metadata <- read.table("data/HOT_sample_metadata.txt", sep="\t", header=T)
-hot_metadata$date <- as.Date(hot_metadata$date) # format dates for R
-
-## 1. Venn Diagram 
-# load venn diagram functions
-source("ref/venn_diagram2.r")
-source("ref/venn_diagram3.r")
-source("ref/venn_diagram4.r")
+pathways_wide <- read.table("../files/HOT_Sanger_pwy.wide.txt", sep="\t", header=T, row.names=1)
+hot_metadata <- read.table("../files/HOT_Sanger_ex_var.csv.txt", sep="\t", header=T)
 
 # quick check to look at the head of our table to check naming conventions
 head(pathways_wide)
+head(hot_metadata)
 
-# extract pathway list from each sample
-pwys_10m <- row.names(pathways_wide)[pathways_wide[,"upper_euphotic"] > 0]
-pwys_70m <- row.names(pathways_wide)[pathways_wide[,"lower_euphotic"] > 0]
-pwys_130m <- row.names(pathways_wide)[pathways_wide[,"chlorophyllmax"] > 0]
-pwys_200m <- row.names(pathways_wide)[pathways_wide[,"below_euphotic"] > 0]
-pwys_500m <- row.names(pathways_wide)[pathways_wide[,"uppermesopelagic"] > 0]
-pwys_770m <- row.names(pathways_wide)[pathways_wide[,"omz"] > 0]
-pwys_4000m <- row.names(pathways_wide)[pathways_wide[,"deepabyss"] > 0]
+# slicing and dicing
+pathways_wide[1,] # first row
+pathways_wide[,1] # first column
 
-# quartz() is x11() on unix and windows
-# Hint: it is conventient to name each set with a string
-quartz()
+# To find which pathways had a more than one ORF we can use a logical operator
+# to give a logical vector
+pathways_wide[,1] > 1
+
+# and these can be quite complex:
+# "both column 1 and column 2 are true but column 3 is less than 10
+complex_cond <- (((pathways_wide[,1] > 1) & (pathways_wide[,2] > 1) ) | pathways_wide[,3] > 0)
+
+# Also to find out how many there are you can just sum the vector
+sum( complex_cond )
+
+# these are useful because we can now use these to select partiular parts of the matrix
+# e.g. this only displays the pathways where column 1 was greater than 1
+pathways_wide[pathways_wide[,1] > 1,]
+# there is a nice convenience script if you want to use the header names
+subset(pathways_wide, "X1_upper_euphotic" > 0)
+
+## 1. E.g. Venn Diagrams
+# load venn diagram functions
+try(library("devtools"), install.packages("devtools")) # used to source functions from the internet
+library("devtools")
+source_url("http://raw.github.com/nielshanson/mp_tutorial/master/downstream_analysis_r/code/venn_diagram2.r")
+source_url("http://raw.github.com/nielshanson/mp_tutorial/master/downstream_analysis_r/code/venn_diagram3.r")
+source_url("http://raw.github.com/nielshanson/mp_tutorial/master/downstream_analysis_r/code/venn_diagram4.r")
+
+rownames(pathways_wide)
+colnames(pathways_wide)
+
+# use our newly found skills to identify which pathways had a signal in each 
+# sample
+pwys_10m <- rownames(pathways_wide)[pathways_wide[,"X1_upper_euphotic"] > 0]
+pwys_70m <- rownames(pathways_wide)[pathways_wide[,"X6_upper_euphotic"] > 0]
+pwys_130m <- rownames(pathways_wide)[pathways_wide[,"X2_chlorophyllmax"] > 0]
+pwys_200m <- rownames(pathways_wide)[pathways_wide[,"X3_below_euphotic"] > 0]
+pwys_500m <- rownames(pathways_wide)[pathways_wide[,"X5_uppermesopelagic"] > 0]
+pwys_770m <- rownames(pathways_wide)[pathways_wide[,"X7_omz"] > 0]
+pwys_4000m <- rownames(pathways_wide)[pathways_wide[,"X4_deepabyss"] > 0]
+
+# We can now use these as inputs to the our venn_diagram scripts
+# 
 venn_10m_and_4000m <- venn_diagram2(pwys_10m, pwys_4000m,
                                     "10m", "4000m")
-quartz()
 venn_10m_70m_130m <- venn_diagram3(pwys_10m, pwys_70m, pwys_130m,
                                    "10m", "70m", "130m")
-quartz()
 venn_500m_770m_4000m <- venn_diagram3(pwys_500m, pwys_770m, pwys_4000m,
                                       "500m", "770m", "4000m")
-quartz()
 venn_10m_70m_130m_200m <- venn_diagram4(pwys_10m, pwys_70m, pwys_130m, pwys_200m,
                                         "10m", "70m", "130m", "200m")
-quartz()
 venn_200m_500m_770m_4000m <- venn_diagram4(pwys_200m, pwys_500m, pwys_770m, pwys_4000m,
                                            "200m", "500m", "770m", "4000m")
 
 # it can also be valuable to compare interesting pathway sets from the above venn_diagrams
 # e.g. pathways common to 10m, 70m, and 130m, against pathways common to
 # 500m, 770m, and 4000m
-my_colors = c("blue", "red") # custom colors
-quartz()
+my_colors = c("#96B4D4", "#ED808B") # custom colors
+
 compare_cores <- venn_diagram2(venn_10m_70m_130m$"10m_70m_130m", venn_500m_770m_4000m$"500m_770m_4000m",
               "Surface_Core", "Deep_Core", colors=my_colors)
 
 # the euler option attempts to scale the relative sizes of the 
-# cirles (not always possible for more complex diagrams
-quartz()
+# cirles (not always possible for more complex diagrams)
 venn_diagram2(venn_10m_70m_130m$"10m_70m_130m", venn_500m_770m_4000m$"500m_770m_4000m",
             "Surface_Core", "Deep_Core", colors=my_colors, euler=TRUE)
 
@@ -69,57 +90,23 @@ venn_diagram2(venn_10m_70m_130m$"10m_70m_130m", venn_500m_770m_4000m$"500m_770m_
 # load some required packages, otherwise install them and try again
 try( library("ecodist"), install.packages("ecodist") ) # Bray-Curtus dissimilarity
 library("ecodist")
-try( library("pvclust"), install.packages("pvclust") ) # Bootstrapped clustering
-library("pvclust") 
-try( library("gplots"), install.packages("gplots") ) # Heatmaps 
-library("gplots")
+# Bootstrapped clustering
+source_url('http://raw.github.com/nielshanson/mp_tutorial/master/taxonomic_analysis/code/pvclust_bcdist.R')
+
+# Fit pvclust with bray-curtis distance and 10 bootstraps (in the interest of time)
+hist(as.matrix(pathways_wide))
+hist(as.matrix(log(pathways_wide+1)))
+pathways_wide_sqrt <- sqrt(pathways_wide)
+path_bcdist_sqrt.pvfit = pvclust(pathways_wide_sqrt, nboot=10, method.hclust="ward", method.dist="bray–curtis")
+plot(path_bcdist_sqrt.pvfit)
+
+# we note that our clustering via pathways is not the same as when we did it with taxonomy
+
+# visualization libraries ggplot2
 try( library("ggplot2"), install.packages("ggplot2") ) # Bubble plots
 library("ggplot2")
 try( library("RColorBrewer"), install.packages("RColorBrewer")) # Color palletes
 library("RColorBrewer")
-
-# find the distance between samples: euclidian is defalut
-# "maximum", "manhattan", "canberra", "binary" or "minkowski"
-path_dist <- dist(t(pathways_wide), "euclidean")
-# Note: the t() function transposes the data matrix, i.e., 
-# rows become columns and columns rows,
-
-# There is also Bray-Curtis distance which is effective for ecological data
-path_bcdist <- bcdist(t(pathways_wide))
-
-# You may also then transform your data: log, sqrt, square, to increase
-# or decrease the importance of large distances
-path_bcdist_sqrt <- bcdist(sqrt(t(pathways_wide)))
-
-# Then to cluster and display simmilar groups hierarchically
-# Number of methods: "wald" and "average" are common there are a 
-# "single", "complete", "average", "mcquitty", "median" or "centroid".
-path_dist.fit <- hclust(path_dist, method="ward")
-path_bcdist.fit <- hclust(path_bcdist, method="ward")
-path_bcdist_sqrt.fit <- hclust(path_bcdist_sqrt, method="ward")
-quartz()
-par(mfrow=c(1,3)) # plot multiple plots together to compare
-plot(path_dist.fit) # plot the fit
-plot(path_bcdist.fit) # plot the fit
-plot(path_bcdist_sqrt.fit) # plot the fit
-
-# it is also possible to do significance testing on clusterings 
-# via subsampled i.e. bootstraped samples (1000 usually a good number, 
-# in most cases, but can take some time.
-path_dist.pvfit = pvclust(pathways_wide, nboot=10, method.hclust="ward", method.dist="euclidean")
-quartz()
-plot(path_dist.pvfit)
-# the red numbers represent the raw bootstrapped p-values (percent of times 
-# found in location) while the green numbers represent corrected p-values to the 
-# subsampled distribution (statistically better)
-
-# bcdist is not implemented in pvclust, we have designed a custom version that
-# does it
-source("ref/pvclust_bcdist.R") 
-path_bcdist.pvfit = pvclust(pathways_wide, nboot=10, method.hclust="ward", method.dist="bray–curtis")
-quartz()
-plot(path_bcdist.pvfit)
-
 
 
 # now that we are looking at the pathways directory it will help to have the translated pathway names
