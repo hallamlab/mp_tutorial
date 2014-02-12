@@ -137,45 +137,63 @@ pathways_long$samp <- factor(pathways_long$samp, levels = hot_metadata$sample)
 library(ggplot2)
 
 g <- ggplot(subset(pathways_long, value >0), aes(x=samp,y=pwy_level1)) +
-     geom_point(aes(size=sqrt(value), color=samp)) + theme_bw() + 
+     geom_point(aes(size=sqrt(value), color=samp)) + 
+     theme_bw() + 
      theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) + 
      labs(x = "Samples", y = "Pathways")
 g
 
 g <- ggplot(subset(pathways_long, value >0), aes(x=samp,y=pwy_level2)) +
-     geom_point(aes(size=sqrt(value), color=samp)) + theme_bw() + 
+     geom_point(aes(size=sqrt(value), color=samp)) + 
+     theme_bw() + 
      theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) + 
      labs(x = "Samples", y = "Pathways")
 g
 
 g <- ggplot(pathways_long, aes(pwy_level1)) +
-     geom_bar(aes(fill=samp)) + theme_bw() + coord_flip() + facet_wrap(~ samp, ncol = 7)
+     geom_bar(aes(fill=samp)) + 
+     theme_bw() + 
+     coord_flip() + 
+     facet_wrap(~ samp, ncol = 7)
 g
 
 g <- ggplot(pathways_long, aes(pwy_level2)) +
-    geom_bar(aes(fill=samp)) + theme_bw() + coord_flip() + facet_wrap(~ samp, ncol = 7)
+     geom_bar(aes(fill=samp)) + 
+     theme_bw() + 
+     coord_flip() + 
+     facet_wrap(~ samp, ncol = 7)
 g
 
 g <- ggplot(pathways_long, aes(pwy_level2, fill=samp)) +
-     geom_bar() + theme_bw() + coord_flip()
+     geom_bar() + 
+     theme_bw() + 
+     coord_flip()
 g
 
 g <- ggplot(pathways_long, aes(value)) +
-     geom_density( aes(fill=samp, alpha=0.6)) + facet_wrap(~ samp, ncol=7) +
-     theme_bw() + theme(legend.position="none")
+     geom_density( aes(fill=samp, alpha=0.6)) + 
+     facet_wrap(~ samp, ncol=7) +
+     theme_bw() + 
+     theme(legend.position="none")
 g
 
 g <- ggplot(pathways_long, aes(log(value+1))) +
-     geom_density( aes(fill=samp, alpha=0.6)) + facet_wrap(~ samp, ncol=7) +
-     theme_bw() + theme(legend.position="none")
+     geom_density( aes(fill=samp, alpha=0.6)) + 
+     facet_wrap(~ samp, ncol=7) +
+     theme_bw() + 
+     theme(legend.position="none")
 g
 
 g <- ggplot(pathways_long, aes(value)) +
-     geom_histogram( aes(fill=samp)) + facet_wrap(~ samp, ncol=7) +
-     theme_bw() + theme(legend.position="none")
+     geom_histogram( aes(fill=samp)) + 
+     facet_wrap(~ samp, ncol=7) +
+     theme_bw() + 
+     theme(legend.position="none")
 g  
 
 g <- ggplot(pathways_long, aes(log(value + 1))) +
-  geom_histogram( aes(fill=samp)) + facet_wrap(~ samp, ncol=7) +
-  theme_bw() + theme(legend.position="none")
+     geom_histogram( aes(fill=samp)) + 
+     facet_wrap(~ samp, ncol=7) +
+     theme_bw() + 
+     theme(legend.position="none")
 g
