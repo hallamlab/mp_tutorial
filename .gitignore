@@ -34,5 +34,6 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+.DS_Store
 
 
