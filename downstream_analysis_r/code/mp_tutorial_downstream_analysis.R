@@ -1,6 +1,12 @@
-## HOT_pathway_analysis.r
+## mp_tutorial_downstream_analysis.R
+# Niels Hanson (nielsh@mail.ubc.ca)
+# Summary of Introduction to Downstream Analysis in R talk
+# Hydrocarbon MetaPathways Workshop, Thursday February 13 2014
 
-# set working directory to the HOT_pathway_analysis directory
+## 1. Loading Data into R 
+
+# set working directory to where your data is
+# e.g. the downstream_analysis_r/code/ directory
 setwd("~/mp_tutorial/downstream_analysis_r/code/")
 
 # read in data
@@ -11,11 +17,22 @@ hot_metadata <- read.table("../files/HOT_Sanger_ex_var.csv.txt", sep="\t", heade
 
 # quick check to look at the head of our table to check naming conventions
 head(pathways_wide)
+tail(pathways_wide)
+dim(pathways_wide)
 head(hot_metadata)
+tail(hot_metadata)
+dim(hot_metadata)
 
-# slicing and dicing
+## 2. Slicing and Dicing Data Frames
 pathways_wide[1,] # first row
 pathways_wide[,1] # first column
+
+# select by row and column names instead of numbers
+pathways_wide["SUCSYN-PWY",]
+pathways_wide[,"X1_upper_euphotic"]
+
+# the dollarsign operator can be used to access columns
+pathways_wide$"X1_upper_euphotic"
 
 # To find which pathways had a more than one ORF we can use a logical operator
 # to give a logical vector
@@ -31,7 +48,8 @@ sum( complex_cond )
 # these are useful because we can now use these to select partiular parts of the matrix
 # e.g. this only displays the pathways where column 1 was greater than 1
 pathways_wide[pathways_wide[,1] > 1,]
-# there is a nice convenience script if you want to use the header names
+
+# there is a nice convenience function if you want to use the header names
 subset(pathways_wide, "X1_upper_euphotic" > 0)
 
 ## 1. E.g. Venn Diagrams
@@ -42,11 +60,11 @@ source_url("http://raw.github.com/nielshanson/mp_tutorial/master/downstream_anal
 source_url("http://raw.github.com/nielshanson/mp_tutorial/master/downstream_analysis_r/code/venn_diagram3.r")
 source_url("http://raw.github.com/nielshanson/mp_tutorial/master/downstream_analysis_r/code/venn_diagram4.r")
 
+# can use rownames and colnames to get pathway names and column variable names
 rownames(pathways_wide)
 colnames(pathways_wide)
 
-# use our newly found skills to identify which pathways had a signal in each 
-# sample
+# use our newly found skills to identify which pathways had a signal in each sample
 pwys_10m <- rownames(pathways_wide)[pathways_wide[,"X1_upper_euphotic"] > 0]
 pwys_70m <- rownames(pathways_wide)[pathways_wide[,"X6_upper_euphotic"] > 0]
 pwys_130m <- rownames(pathways_wide)[pathways_wide[,"X2_chlorophyllmax"] > 0]
@@ -56,14 +74,19 @@ pwys_770m <- rownames(pathways_wide)[pathways_wide[,"X7_omz"] > 0]
 pwys_4000m <- rownames(pathways_wide)[pathways_wide[,"X4_deepabyss"] > 0]
 
 # We can now use these as inputs to the our venn_diagram scripts
+quartz()
 venn_10m_and_4000m <- venn_diagram2(pwys_10m, pwys_4000m,
                                     "10m", "4000m")
+quartz()
 venn_10m_70m_130m <- venn_diagram3(pwys_10m, pwys_70m, pwys_130m,
                                    "10m", "70m", "130m")
+quartz()
 venn_500m_770m_4000m <- venn_diagram3(pwys_500m, pwys_770m, pwys_4000m,
                                       "500m", "770m", "4000m")
+quartz()
 venn_10m_70m_130m_200m <- venn_diagram4(pwys_10m, pwys_70m, pwys_130m, pwys_200m,
                                         "10m", "70m", "130m", "200m")
+quartz()
 venn_200m_500m_770m_4000m <- venn_diagram4(pwys_200m, pwys_500m, pwys_770m, pwys_4000m,
                                            "200m", "500m", "770m", "4000m")
 
