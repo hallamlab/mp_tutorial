@@ -98,22 +98,77 @@ my_colors = c("#29A7A7", "#C000C0") # custom colors
 
 # the euler option attempts to scale the relative sizes of the 
 # cirles (not always possible for more complex diagrams)
+quartz()
 compare_cores <- venn_diagram2(venn_500m_770m_4000m$"500m_770m_4000m", venn_10m_70m_130m$"10m_70m_130m",
                                "Deep", "Surface", colors=my_colors, euler=TRUE)
 
-## Visualization in ggplot2
-# load some required packages, otherwise install them and try again
+## 2. Data distributions
 
-# Data distributions
+# relativeize counts by their column sums
+pathways_wide.rel <- scale(pathways_wide, center=FALSE, scale=colSums(pathways_wide))
+
+# take a look at the two distributions
+par(mfrow=c(1,2))
+hist(as.matrix(pathways_wide), xlab="Raw ORFs", main="Raw Counts", col="light blue")
+hist(as.matrix(pathways_wide.rel), xlab="Relative ORFs", main="Relative Counts", col="light green")
+par(mfrow=c(1,1)) # reset graph to 1x1
+# both relative and raw distributions looks pretty similar
+
+# also good to try a few transforms
 par(mfrow=c(2,3))
-pathways_wide.matrix <- as.matrix(pathways_wide)
-hist(pathways_wide.matrix)
-hist(log(pathways_wide.matrix+1))
-hist(sqrt(pathways_wide.matrix))
-plot(density(pathways_wide.matrix))
-plot(density(log(pathways_wide.matrix+1)))
-plot(density(sqrt(pathways_wide.matrix)))
+hist(pathways_wide.rel, xlab="Relative ORFs", main="hist", col="dark blue")
+hist(log(pathways_wide.rel+1), xlab="Relative ORFs (Log)", main="hist (log)", col="dark green")
+hist(sqrt(pathways_wide.rel), xlab="Relative ORFs (Square Root)", main="hist (sqrt)",col="tomato")
+plot(density(pathways_wide.rel), xlab="Relative ORFs", main="density", col="dark blue")
+plot(density(log(pathways_wide.rel+1)), xlab="Relative ORFs (Log)", main="density (log)", col="dark green")
+plot(density(sqrt(pathways_wide.rel)), xlab="Relative ORFs (Square Root)", main="density (sqrt)", col="tomato")
 par(mfrow=c(1,1))
+
+# r has a few special names for colors
+colors()
+
+# we might also take this opportunity to highlight the pairs function to
+# compare envinronmental paramter metadata
+quartz()
+pairs(hot_metadata[2:length(hot_metadata)])
+
+# we can do the same using qqplot using the histgram and density geom patterns
+try (library("ggplot2"), install.packages("ggplot2"))
+library("ggplot2")
+
+# since ggplot is a different visualization environment than the standard R graphics
+# a separate function as been created to display plots together
+source_url("http://raw.github.com/nielshanson/mp_tutorial/master/downstream_analysis_r/code/multiplot.r")
+
+# in this case ggplot will expect our data as a vector of numbers
+pathways_wide.vector <- as.vector(as.matrix(pathways_wide))
+pathways_wide.rel.vector <- as.vector(pathways_wide.rel)
+
+# same as above but in qplot
+p1 <- qplot(pathways_wide.vector, 
+            geom="histogram",
+            xlab="Raw ORFs", main="Raw Counts")
+p2 <- qplot(pathways_wide.rel.vector, 
+            geom="histogram",
+            xlab="Relative ORFs",
+            main="Relative Counts")
+quartz()
+multiplot(p1, p2, cols=2)
+
+# same as above but in qplot
+p1 <- qplot(pathways_wide.rel.vector, xlab="Relative ORFs", main="hist", geom="histogram")
+p2 <- qplot(log(pathways_wide.rel.vector + 1), xlab="Relative ORFs (Log)", main="hist (log)", geom="histogram")
+p3 <- qplot(sqrt(pathways_wide.rel.vector), xlab="Relative ORFs (Square Root)", main="hist (sqrt)", geom="histogram")
+p4 <- qplot(pathways_wide.rel.vector, xlab="Relative ORFs", main="density", geom="density")
+p5 <- qplot(log(pathways_wide.rel.vector + 1), xlab="Relative ORFs (Log)", main="density (log)", geom="density")
+p6 <- qplot(sqrt(pathways_wide.rel.vector), xlab="Relative ORFs (Square Root)", main="density (sqrt)", geom="density")
+quartz()
+multiplot(p1, p4, p2, p5, p3, p6, cols=3)
+
+# though this is deprecated for GGally, its ability to quickly work with dataframes
+# is still valuable
+quartz()
+plotmatrix(log(hot_metadata[2:length(hot_metadata)]), colour="gray20") + geom_smooth(method="lm")
 
 # time to switch from wide to long table formats
 try( library("reshape2"), install.packages("reshape2") )
@@ -157,6 +212,11 @@ pathways_long$samp <- factor(pathways_long$samp, levels = hot_metadata$sample)
 # whew, you got the longtable
 
 # load ggplot2
+
+
+## Visualization in ggplot2
+# load some required packages, otherwise install them and try again
+
 library(ggplot2)
 
 g <- ggplot(subset(pathways_long, value >0), aes(x=samp,y=pwy_level1)) +
