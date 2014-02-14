@@ -165,14 +165,34 @@ p6 <- qplot(sqrt(pathways_wide.rel.vector), xlab="Relative ORFs (Square Root)", 
 quartz()
 multiplot(p1, p4, p2, p5, p3, p6, cols=3)
 
+# however, the most standard way to use qplot is to provide a two vectors for x
+# and y axes. The stat_smooth function allows you to quickly perform and visualize
+# a linear regression
+
+quartz()
+qplot(x=depth, y=temp, data=hot_metadata) + stat_smooth(method=rlm, formula = y ~ log(x))
+
+
+
+
 # though this is deprecated for GGally, its ability to quickly work with dataframes
 # is still valuable
 quartz()
 plotmatrix(log(hot_metadata[2:length(hot_metadata)]), colour="gray20") + geom_smooth(method="lm")
 
+# the equivalent plot in GGally
+try(install.packages("GGally"), library("GGally"))
+library("GGally")
+library(MASS) # robust linear regression
+ggpairs(hot_metadata[2:length(hot_metadata)], 
+        upper= list(continuous = "smooth", params = c(method = "rlm")), 
+        lower = list(continuous = "smooth", params = c(method = "rlm")))
+
+
+
 # time to switch from wide to long table formats
 try( library("reshape2"), install.packages("reshape2") )
-library("reshape2")
+library("reshape2") 
 
 # add pathways from rowsnames to matrix
 pathways_wide$pwy = rownames(pathways_wide)
