@@ -172,9 +172,6 @@ multiplot(p1, p4, p2, p5, p3, p6, cols=3)
 quartz()
 qplot(x=depth, y=temp, data=hot_metadata) + stat_smooth(method=rlm, formula = y ~ log(x))
 
-
-
-
 # though this is deprecated for GGally, its ability to quickly work with dataframes
 # is still valuable
 quartz()
@@ -188,8 +185,7 @@ ggpairs(hot_metadata[2:length(hot_metadata)],
         upper= list(continuous = "smooth", params = c(method = "rlm")), 
         lower = list(continuous = "smooth", params = c(method = "rlm")))
 
-
-
+## 3. Wide and Long Table Formats
 # time to switch from wide to long table formats
 try( library("reshape2"), install.packages("reshape2") )
 library("reshape2") 
