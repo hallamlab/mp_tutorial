@@ -101,7 +101,7 @@ my_colors = c("#29A7A7", "#C000C0") # custom colors
 compare_cores <- venn_diagram2(venn_500m_770m_4000m$"500m_770m_4000m", venn_10m_70m_130m$"10m_70m_130m",
                                "Deep", "Surface", colors=my_colors, euler=TRUE)
 
-## 2. Hierarchcial Clustering, Heatmaps, Bubble Plots
+## Visualization in ggplot2
 # load some required packages, otherwise install them and try again
 
 # Data distributions
