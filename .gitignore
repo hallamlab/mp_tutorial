@@ -34,6 +34,10 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# my gitignore
 .DS_Store
+.Rapp.history
+.Rhistory
 
 
