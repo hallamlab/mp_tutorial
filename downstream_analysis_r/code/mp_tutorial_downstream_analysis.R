@@ -170,7 +170,15 @@ multiplot(p1, p4, p2, p5, p3, p6, cols=3)
 quartz()
 plotmatrix(log(hot_metadata[2:length(hot_metadata)]), colour="gray20") + geom_smooth(method="lm")
 
-# time to switch from wide to long table formats
+## 3. Hierarchical Clustering
+source_url('http://raw.github.com/nielshanson/mp_tutorial/master/taxonomic_analysis/code/pvclust_bcdist.R')
+HOT_data.bcdist.pv_fit <- pvclust(HOT_data, method.hclust="ward", method.dist="bray–curtis", n=1000)
+plot(HOT_data.bcdist.pv_fit)
+
+
+
+
+# time to switch from wide to long table formats using melt
 try( library("reshape2"), install.packages("reshape2") )
 library("reshape2")
 
