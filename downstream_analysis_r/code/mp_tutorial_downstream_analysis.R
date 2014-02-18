@@ -177,17 +177,6 @@ qplot(x=depth, y=temp, data=hot_metadata) + stat_smooth(method=rlm, formula = y 
 quartz()
 plotmatrix(log(hot_metadata[2:length(hot_metadata)]), colour="gray20") + geom_smooth(method="lm")
 
-<<<<<<< HEAD
-## 3. Hierarchical Clustering
-source_url('http://raw.github.com/nielshanson/mp_tutorial/master/taxonomic_analysis/code/pvclust_bcdist.R')
-HOT_data.bcdist.pv_fit <- pvclust(HOT_data, method.hclust="ward", method.dist="bray–curtis", n=1000)
-plot(HOT_data.bcdist.pv_fit)
-
-
-
-
-# time to switch from wide to long table formats using melt
-=======
 # the equivalent plot in GGally
 try(install.packages("GGally"), library("GGally"))
 library("GGally")
@@ -196,18 +185,39 @@ ggpairs(hot_metadata[2:length(hot_metadata)],
         upper= list(continuous = "smooth", params = c(method = "rlm")), 
         lower = list(continuous = "smooth", params = c(method = "rlm")))
 
-## 3. Wide and Long Table Formats
-# time to switch from wide to long table formats
->>>>>>> 1d638cb736cc131da194e39509470c1b78ba981a
+## 3. Hierarchical Clustering
+
+# going forward we will look at the square root of relative counts
+pathways_wide.hel <- sqrt(pathways_wide.rel)
+
+source_url('http://raw.github.com/nielshanson/mp_tutorial/master/taxonomic_analysis/code/pvclust_bcdist.R')
+# 1000 bootstraps usually good enough for p-values
+pathways_wide.hel.pv_fit <- pvclust(pathways_wide.hel, method.hclust="ward", method.dist="bray–curtis", n=1000)
+quartz()
+plot(pathways_wide.hel.pv_fit, main="Pathway Clustering")
+
+# looking at the plot we will decide on cluster groups by slicing dendgrogram
+pathways_wide.hel.groups <- cutree(pathways_wide.hel.pv_fit$hclust, h=0.32) # slice dendrogram for groups
+
+## 4. Going from wide to long tables
+
 try( library("reshape2"), install.packages("reshape2") )
 library("reshape2") 
 
 # add pathways from rowsnames to matrix
-pathways_wide$pwy = rownames(pathways_wide)
+pathways_wide.hel <- cbind(pwy=rownames(pathways_wide.hel), pathways_wide.hel)
 # go from wide to long table format
-pathways_long <- melt(pathways_wide)
+pathways_long <- melt(pathways_wide.hel)
+colnames(pathways_long)[1] = "pwy"
 colnames(pathways_long)[2] = "samp"
-pathways_long$samp <- sub("X","", pathways_long$samp)
+
+# in this case we organize samples by the cluster order
+samp_order <- pathways_wide.hel.pv_fit$hclust$labels[pathways_wide.hel.pv_fit$hclust$order]
+pathways_long$samp <- factor(pathways_long$samp, levels = samp_order)
+
+# add cluster groups
+pathways_long$clust_group <- as.vector(pathways_wide.hel.groups[as.vector(pathways_long$samp)])
+pathways_long$clust_group <- as.factor(pathways_long$clust_group) # set group numbers as factors
 
 # add long pathway names 
 meta_17 <- read.table("../files/meta_17.txt", sep="\t", header=T, row.names=1)
@@ -232,30 +242,25 @@ pathways_long <- pathways_long[!(pathways_long$pwy %in% missing),]
 # order pathways first by level V3 and then by V4
 pwy_order <- intersect(rownames(meta_17_hier[order(meta_17_hier[,"V3"], meta_17_hier[,"V4"]),]), 
                        unique(pathways_long$pwy))
-
-# factor pathways and then the samples 
+# factor pathways
 pathways_long$pwy <- factor(pathways_long$pwy, levels = pwy_order)
-pathways_long$samp <- factor(pathways_long$samp, levels = hot_metadata$sample)
+pathways_long$pwy_long <- factor(pathways_long$pwy_long, levels = unique(pathways_long$pwy_long[order(pathways_long$pwy)]))
 
 # whew, you got the longtable
 
-# load ggplot2
-
-
-## Visualization in ggplot2
-# load some required packages, otherwise install them and try again
-
+## 5. Visualization using ggplot
+# first double check that you have loaded 
 library(ggplot2)
 
 g <- ggplot(subset(pathways_long, value >0), aes(x=samp,y=pwy_level1)) +
-     geom_point(aes(size=sqrt(value), color=samp)) + 
+     geom_point(aes(size=value, color=clust_group)) + 
      theme_bw() + 
      theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) + 
      labs(x = "Samples", y = "Pathways")
 g
 
 g <- ggplot(subset(pathways_long, value >0), aes(x=samp,y=pwy_level2)) +
-     geom_point(aes(size=sqrt(value), color=samp)) + 
+     geom_point(aes(size=value, color=clust_group)) + 
      theme_bw() + 
      theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) + 
      labs(x = "Samples", y = "Pathways")
@@ -272,7 +277,8 @@ g <- ggplot(pathways_long, aes(pwy_level2)) +
      geom_bar(aes(fill=samp)) + 
      theme_bw() + 
      coord_flip() + 
-     facet_wrap(~ samp, ncol = 7)
+     facet_wrap(~ samp, ncol = 7) + 
+     theme(legend.position="none")
 g
 
 g <- ggplot(pathways_long, aes(pwy_level2, fill=samp)) +
@@ -283,28 +289,14 @@ g
 
 g <- ggplot(pathways_long, aes(value)) +
      geom_density( aes(fill=samp, alpha=0.6)) + 
-     facet_wrap(~ samp, ncol=7) +
-     theme_bw() + 
-     theme(legend.position="none")
-g
-
-g <- ggplot(pathways_long, aes(log(value+1))) +
-     geom_density( aes(fill=samp, alpha=0.6)) + 
-     facet_wrap(~ samp, ncol=7) +
+     facet_wrap(~ clust_group, ncol=3) +
      theme_bw() + 
      theme(legend.position="none")
 g
 
 g <- ggplot(pathways_long, aes(value)) +
      geom_histogram( aes(fill=samp)) + 
-     facet_wrap(~ samp, ncol=7) +
+     facet_wrap(~ clust_group, ncol=7) +
      theme_bw() + 
      theme(legend.position="none")
 g  
-
-g <- ggplot(pathways_long, aes(log(value + 1))) +
-     geom_histogram( aes(fill=samp)) + 
-     facet_wrap(~ samp, ncol=7) +
-     theme_bw() + 
-     theme(legend.position="none")
-g
