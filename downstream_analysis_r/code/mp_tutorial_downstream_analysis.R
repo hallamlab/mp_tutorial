@@ -199,7 +199,36 @@ plot(pathways_wide.hel.pv_fit, main="Pathway Clustering")
 # looking at the plot we will decide on cluster groups by slicing dendgrogram
 pathways_wide.hel.groups <- cutree(pathways_wide.hel.pv_fit$hclust, h=0.32) # slice dendrogram for groups
 
-## 4. Going from wide to long tables
+
+## 4. Dimensionality Reduction
+library(vegan) # use the vegan
+
+# a basic PCA analysis of pathways
+pathways_wide.hel.pca <- rda(t(pathways_wide.hel))
+p <- length(pathways_wide.hel.pca$CA$eig)
+pathways_wide.hel.pca.sc1 <- scores(pathways_wide.hel.pca, display="wa", scaling=1, choices=c(1:p))
+variance = (pathways_wide.hel.pca$CA$eig / sum(pathways_wide.hel.pca$CA$eig))*100
+
+# plot scaling 1
+quartz("Pathways Scaling 1: PCA")
+qplot(pathways_wide.hel.pca.sc1[,1], 
+      pathways_wide.hel.pca.sc1[,2], 
+      label=rownames(pathways_wide.hel.pca.sc1), 
+      size=2, geom=c("point"), 
+      xlab= paste("PC1 (", round(variance[1],2) ," % Variance)"), 
+      ylab= paste("PC2 (", round(variance[2],2) ," % Variance)"), 
+      color=factor(pathways_wide.hel.groups)) + 
+      geom_text(hjust=-0.1, vjust=0, colour="black", size=3) + theme_bw() + theme(legend.position="none") + xlim(-0.6, 0.6)
+
+# NMDS
+pathways_wide.hel.nmds <- metaMDS(t(pathways_wide.hel), distance = "bray")
+quartz("Pathways NMDS - Bray")
+qplot(pathways_wide.hel.nmds$points[,1], pathways_wide.hel.nmds$points[,2], label=rownames(pathways_wide.hel.nmds$points), size=2, geom=c("point"), 
+      xlab="MDS1", ylab="MDS2", main=paste("NMDS/Bray - Stress =", round(pathways_wide.hel.nmds$stress,3)), color=factor(pathways_wide.hel.groups)) + 
+  geom_text(hjust=-0.1, vjust=0, colour="black", size=3) + theme_bw() +theme(legend.position="none") + xlim(-0.5,1.0)
+
+
+## 5. Going from wide to long tables
 
 try( library("reshape2"), install.packages("reshape2") )
 library("reshape2") 
@@ -248,7 +277,7 @@ pathways_long$pwy_long <- factor(pathways_long$pwy_long, levels = unique(pathway
 
 # whew, you got the longtable
 
-## 5. Visualization using ggplot
+## 6. Visualization using ggplot
 # first double check that you have loaded 
 library(ggplot2)
 
