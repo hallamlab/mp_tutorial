@@ -100,7 +100,7 @@ HOT_data.m$sample <- factor(HOT_data.m$sample, levels=name_order) # set order of
 HOT_data.m$taxa <- factor(HOT_data.m$taxa, levels=unique(HOT_data.m$taxa)) # set order of taxa
 
 # cut bray-curtis clustering to get groups
-bc_ward_groups <- cutree(HOT_data.bcdist.ward.fit, h=0.12) # slice dendrogram for groups (hight=0.2)
+bc_ward_groups <- cutree(HOT_data.bcdist.ward.fit, h=0.12) # slice dendrogram for groups
 HOT_data.m$clust_group <- as.vector(bc_ward_groups[as.vector(HOT_data.m[,"sample"])])
 HOT_data.m$clust_group <- as.factor(HOT_data.m$clust_group) # set group numbers as factors
 
