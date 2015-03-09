@@ -1030,6 +1030,7 @@ use Data::Dumper;
    my $SUPPORT = 0;
    my $WIDE_TABLE;
    my $RXN;
+   my $FT_TABLE;
    
    my $result = GetOptions(
        'help+' => \$HELP,
@@ -1040,6 +1041,7 @@ use Data::Dumper;
        'support=s' => \$SUPPORT,
        'rxn' => \$RXN,
        'files=s{1,}' => \@FILES,
+	   'ft_table=s' => \$FT_TABLE,
        'output=s' => \$OUTFILE,
    );
    
@@ -1119,15 +1121,29 @@ use Data::Dumper;
    
    # print out headers for the 'long' and 'lookup' output formats
    if ($TYPE eq "long" ) {
-      print OUT "SAMPLE\tPWY_NAME\tPWY_COMMON_NAME\tNUM_REACTIONS\tNUM_COVERED_REACTIONS\tORF_COUNT\tORF\n";
-      
+	   if ($FT_TABLE) {
+	       print OUT "SAMPLE\tPWY_NAME\tPWY_COMMON_NAME\tRXN\tORF\tPRODUCT\n";
+	   } else {
+	       print OUT "SAMPLE\tPWY_NAME\tPWY_COMMON_NAME\tRXN\tORF\n";
+	   }
    } elsif ($TYPE eq "lookup") {
       print OUT "SAMPLE\tPWY_NAME\tPWY_COMMON_NAME\tNUM_REACTIONS\tNUM_COVERED_REACTIONS\tORF_COUNT\n";
    }
    
+   my %orf_to_annotation; # mapping from functional_and_taxonomic_table.txt
    my %pathway_to_sample; # create a hash for pathways-to-samples
    my %rxn_to_sample; # create a has for reactions-to-samples
    my %short_to_long; # record of all the short to long_names
+   
+   if ($FT_TABLE) {
+       open (IN , $FT_TABLE);
+	   while (<IN>) {
+		   chomp;
+		   my ($one, $two, $three, $four, $five, $six, $seven, $eight, $nine, $ten ) = split("\t");
+		   $orf_to_annotation{$one} = $ten;
+	   }
+	   close(IN);
+   }
    
    # main loop to connect to Pathway Tools
    foreach my $sample_name (@FILES) {
@@ -1146,10 +1162,11 @@ use Data::Dumper;
            my $pathway_common_name = $cyc->get_slot_value($pathway,"common-name") || "?";
            my $num_reactions = scalar(@totalrxns);
            my $num_predicted_orfs = scalar(@mygenes);
-           my $num_covered_rxns =0;
-           my $num_genes =0;
+           my $num_covered_rxns = 0;
+           my $num_genes = 0;
            my %orf_strings = ();
            
+		   my %orf_to_pwy_reaction; # map from orf id to 
            # calculate the number of genes and the number of covered reactions
            foreach my $reaction (@totalrxns) {
              my @rxngenes = $cyc->genes_of_reaction($reaction,"T");
@@ -1157,6 +1174,10 @@ use Data::Dumper;
                  $num_covered_rxns++;
                  $num_genes += scalar(@rxngenes);
                  $rxn_to_sample { $reaction }{ $sample_name } = scalar(@rxngenes); # hash each short_name to the pathway count
+				 foreach my $rxn_gene (@rxngenes) {
+					 my $rxn_gene_common = $cyc->get_slot_value($rxn_gene,"common-name");
+					 $orf_to_pwy_reaction{$rxn_gene_common} = $reaction;
+				 }
              }
              
              map { $orf_strings{$_} =1 } @rxngenes;
@@ -1171,8 +1192,12 @@ use Data::Dumper;
                 for (keys %orf_strings) {
                      my $gene_common = $cyc->get_slot_value($_,"common-name");
                      my $outputstr = "";
-                     $outputstr = $sample_name . "\t" . $pathway . "\t" . cleanup($pathway_common_name) . "\t" . $num_reactions . "\t" . $num_covered_rxns . "\t" . $num_predicted_orfs . "\t" . $gene_common ;
-                     $outputstr .= "\n";
+					 if ($FT_TABLE) {
+                         $outputstr = $sample_name . "\t" . $pathway . "\t" . cleanup($pathway_common_name) . "\t" . $orf_to_pwy_reaction{$gene_common} . "\t" . $gene_common . "\t" . $orf_to_annotation{ $gene_common } ;
+				     } else {
+				     	 $outputstr = $sample_name . "\t" . $pathway . "\t" . cleanup($pathway_common_name) . "\t" . $orf_to_pwy_reaction{$gene_common} . "\t" . $gene_common ;
+				     } 
+					 $outputstr .= "\n";
                      # print $outputstr;
                      print OUT $outputstr;
                  }
